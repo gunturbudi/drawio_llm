@@ -1,0 +1,30 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"User","externalEntity",,""
+2,"Enter Zip Code, Get Nearby Recycling Facilities","process","1","Zip Code, Nearby Recycling Facilities"
+3,"Nearby Recycling Facilities List","dataStore","2","Nearby Recycling Facilities"
+4,"Recycling Facility Rep","externalEntity",,""
+5,"Update Facility Information","process","4","Facility Information"
+6,"Facility Data","dataStore","5","Facility Information"
+7,"User","externalEntity",,""
+8,"Select Recyclable Waste, Get Facilities by Type and Hours","process","7","Recyclable Waste, Facilities by Type and Hours"
+9,"Facilities by Type and Hours List","dataStore","8","Facilities by Type and Hours"
+10,"Admin","externalEntity",,""
+11,"Add/Remove Facility Info","process","10","Facility Information"
+12,"Public Recycling Bins Map","process","1","User, Geographic Information"

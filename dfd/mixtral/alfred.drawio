@@ -1,0 +1,155 @@
+<mxfile host="Electron" modified="2024-02-07T07:10:04.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Pv90zMX4p6K1eADn2nZ1" version="23.0.2" type="device">
+  <diagram name="Page-1" id="OzLWilebJlHnzdK9YZ0Y">
+    <mxGraphModel dx="2021" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="OlderPerson" type="externalEntity" source="" flow="" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="252.5" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Falls Detection" type="process" source="1" flow="Fall Event" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry y="135" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Emergency Notification" type="process" source="2" flow="Emergency Contact Info" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="-25" y="270" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Medicine Reminder" type="process" source="1" flow="Reminder Time" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="135" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Medicine Intake" type="process" source="1,4" flow="Medicine Intake Confirmation" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="194.59876543209876" y="270" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Medical Caregiver" type="externalEntity" source="" flow="" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-6">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="715" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Medicine Status" type="dataStore" source="5" flow="Medicine Status" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-7">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
+            <mxGeometry x="194.59876543209876" y="405" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Healthy Recipe Suggestion" type="process" source="1" flow="User Preferences" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="330" y="135" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Location Tracking" type="process" source="1" flow="Location Data" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="535" y="135" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Caregiver Location Request" type="process" source="6" flow="Caregiver ID" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-10">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="690" y="135" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Location Data" type="dataStore" source="9,10" flow="Location Data" placeholders="1" id="wxe_wVTdHt3dvxPXpVJx-11">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
+            <mxGeometry x="635" y="270" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-12" value="Fall Event" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-1" target="wxe_wVTdHt3dvxPXpVJx-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="266" y="47" />
+              <mxPoint x="52.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-13" value="Emergency Contact Info" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-2" target="wxe_wVTdHt3dvxPXpVJx-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="52.5" y="182" />
+              <mxPoint x="52.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-14" value="Reminder Time" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-1" target="wxe_wVTdHt3dvxPXpVJx-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="283" y="49" />
+              <mxPoint x="202.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-15" value="Medicine Intake Confirmation" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-1" target="wxe_wVTdHt3dvxPXpVJx-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="51" />
+              <mxPoint x="300" y="85" />
+              <mxPoint x="300" y="220" />
+              <mxPoint x="278.34876543209873" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-16" value="Medicine Intake Confirmation" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-4" target="wxe_wVTdHt3dvxPXpVJx-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202.5" y="182" />
+              <mxPoint x="225.84876543209876" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-17" value="Medicine Status" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-5" target="wxe_wVTdHt3dvxPXpVJx-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252.09876543209873" y="317" />
+              <mxPoint x="252.09876543209873" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-18" value="User Preferences" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-1" target="wxe_wVTdHt3dvxPXpVJx-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="317" y="49" />
+              <mxPoint x="417.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-19" value="Location Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-1" target="wxe_wVTdHt3dvxPXpVJx-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="47" />
+              <mxPoint x="597.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-20" value="Caregiver ID" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-6" target="wxe_wVTdHt3dvxPXpVJx-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="777.5" y="47" />
+              <mxPoint x="777.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-21" value="Location Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-9" target="wxe_wVTdHt3dvxPXpVJx-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="597.5" y="182" />
+              <mxPoint x="663.75" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxe_wVTdHt3dvxPXpVJx-22" value="Location Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="wxe_wVTdHt3dvxPXpVJx-10" target="wxe_wVTdHt3dvxPXpVJx-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="777.5" y="182" />
+              <mxPoint x="711.25" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

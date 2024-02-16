@@ -1,0 +1,5 @@
+As an OlderPerson, I want to have ALFRED to detect falls and send an emergency to a specific contact.
+As an OlderPerson, I want to receive a medicine reminder from ALFRED.
+As a MedicalCaregiver, I want to be able to see if the patient has taken her medicine.
+As an OlderPerson, I want to have ALFRED to suggest healthy recipes.
+As a MedicalCaregiver, I want to locate the ALFRED user.

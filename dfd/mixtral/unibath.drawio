@@ -1,0 +1,132 @@
+<mxfile host="Electron" modified="2024-02-04T16:32:33.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="WPDEU0Io2gNBSH3sd00Z" version="23.0.2" type="device">
+  <diagram name="Page-1" id="t7RhqWPJNzDJsvXJ_Wyx">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Depositor" type="externalEntity" source="" flow="" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-18">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="360" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Link datasets to publications" type="process" source="1" flow="Datasets, Publications" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-19">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Datasets" type="dataStore" source="2" flow="Datasets" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-20">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="50" y="270" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Privileged access to datasets" type="process" source="1" flow="Access Permissions" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-21">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="205" y="135" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Collaborators" type="externalEntity" source="4" flow="Access Permissions" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-22">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="251.875" y="270" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Deposit data from facility" type="process" source="1" flow="Facility Data" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-23">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="420" y="135" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Research Facility Manager" type="externalEntity" source="6" flow="Facility Data" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-24">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="390" y="270" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Deposit and maintain datasets via API" type="process" source="1" flow="Datasets" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-25">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="605" y="135" width="235" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Developer" type="externalEntity" source="8" flow="Datasets" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-26">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="680" y="270" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Gain privileged access to data" type="process" source="5" flow="Access Permissions" placeholders="1" id="-y20gHwGtZj0vVLyT8W0-27">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="206.875" y="405" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-y20gHwGtZj0vVLyT8W0-28" value="Datasets, Publications" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="-y20gHwGtZj0vVLyT8W0-18" target="-y20gHwGtZj0vVLyT8W0-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="373.125" y="47" />
+              <mxPoint x="87.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y20gHwGtZj0vVLyT8W0-29" value="Datasets" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="-y20gHwGtZj0vVLyT8W0-19" target="-y20gHwGtZj0vVLyT8W0-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.5" y="182" />
+              <mxPoint x="87.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y20gHwGtZj0vVLyT8W0-30" value="Access Permissions" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="-y20gHwGtZj0vVLyT8W0-18" target="-y20gHwGtZj0vVLyT8W0-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="389.375" y="49" />
+              <mxPoint x="297.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y20gHwGtZj0vVLyT8W0-31" value="Access Permissions" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="-y20gHwGtZj0vVLyT8W0-21" target="-y20gHwGtZj0vVLyT8W0-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297.5" y="182" />
+              <mxPoint x="299.375" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y20gHwGtZj0vVLyT8W0-32" value="Facility Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="-y20gHwGtZj0vVLyT8W0-18" target="-y20gHwGtZj0vVLyT8W0-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405.625" y="49" />
+              <mxPoint x="497.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y20gHwGtZj0vVLyT8W0-33" value="Facility Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="-y20gHwGtZj0vVLyT8W0-23" target="-y20gHwGtZj0vVLyT8W0-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="497.5" y="182" />
+              <mxPoint x="477.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y20gHwGtZj0vVLyT8W0-34" value="Datasets" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="-y20gHwGtZj0vVLyT8W0-18" target="-y20gHwGtZj0vVLyT8W0-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421.875" y="47" />
+              <mxPoint x="722.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y20gHwGtZj0vVLyT8W0-35" value="Datasets" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="-y20gHwGtZj0vVLyT8W0-25" target="-y20gHwGtZj0vVLyT8W0-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="722.5" y="182" />
+              <mxPoint x="722.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-y20gHwGtZj0vVLyT8W0-36" value="Access Permissions" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="-y20gHwGtZj0vVLyT8W0-22" target="-y20gHwGtZj0vVLyT8W0-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299.375" y="317" />
+              <mxPoint x="299.375" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

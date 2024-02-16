@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2024-02-04T10:18:02.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="GaGypeHNw7X-KAmBUVuJ" version="23.0.2" type="device">
+  <diagram name="Page-1" id="gN6pWfFeFUvVyT0Bmduj">
+    <mxGraphModel dx="1194" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="OlderPerson" type="externalEntity" source="" flow="" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-19">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="160" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="MedicalCaregiver" type="externalEntity" source="" flow="" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-20">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="385" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ALFRED" type="externalEntity" source="" flow="" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-21">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="240" y="290" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Detect Falls" type="process" source="1" flow="Fall Detection Request" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-22">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="230" y="95" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Send Emergency" type="process" source="4,3" flow="Emergency Notification" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-23">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="460" y="192.5" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Medicine Reminder" type="process" source="1" flow="Medicine Reminder Request" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-24">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="210" y="160" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Patient Records" type="dataStore" source="" flow="Patient Information" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-25">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry y="50" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View Medicine Status" type="process" source="2" flow="View Medicine Status Request" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-26">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="345" y="350" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Suggest Healthy Recipes" type="process" source="1" flow="Healthy Recipes Request" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-27">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="195" y="225" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Locate ALFRED User" type="process" source="2" flow="Locate ALFRED User Request" placeholders="1" id="lruVwWlf_4Vj3eBAzC8M-28">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="341" y="447.5" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lruVwWlf_4Vj3eBAzC8M-29" value="Fall Detection Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="lruVwWlf_4Vj3eBAzC8M-19" target="lruVwWlf_4Vj3eBAzC8M-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="169.16666666666666" />
+              <mxPoint x="183" y="112.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lruVwWlf_4Vj3eBAzC8M-30" value="Emergency Notification" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="lruVwWlf_4Vj3eBAzC8M-22" target="lruVwWlf_4Vj3eBAzC8M-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="112.5" />
+              <mxPoint x="448" y="203.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lruVwWlf_4Vj3eBAzC8M-31" value="Emergency Notification" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="lruVwWlf_4Vj3eBAzC8M-21" target="lruVwWlf_4Vj3eBAzC8M-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="307.5" />
+              <mxPoint x="448" y="216.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lruVwWlf_4Vj3eBAzC8M-32" value="Medicine Reminder Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="lruVwWlf_4Vj3eBAzC8M-19" target="lruVwWlf_4Vj3eBAzC8M-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="177.5" />
+              <mxPoint x="183" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lruVwWlf_4Vj3eBAzC8M-33" value="View Medicine Status Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="lruVwWlf_4Vj3eBAzC8M-20" target="lruVwWlf_4Vj3eBAzC8M-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137" y="396.25" />
+              <mxPoint x="213" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lruVwWlf_4Vj3eBAzC8M-34" value="Healthy Recipes Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="lruVwWlf_4Vj3eBAzC8M-19" target="lruVwWlf_4Vj3eBAzC8M-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="185.83333333333334" />
+              <mxPoint x="183" y="242.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lruVwWlf_4Vj3eBAzC8M-35" value="Locate ALFRED User Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="lruVwWlf_4Vj3eBAzC8M-20" target="lruVwWlf_4Vj3eBAzC8M-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137" y="408.75" />
+              <mxPoint x="213" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

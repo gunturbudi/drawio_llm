@@ -1,0 +1,140 @@
+<mxfile host="Electron" modified="2024-02-04T12:42:55.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="v0jQF3H5kNHIHkT03yeq" version="23.0.2" type="device">
+  <diagram name="Page-1" id="2kFYQMssQ7dz91TOyYGx">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="User" type="externalEntity" source="" flow="Enter Zip Code, Select Recyclable Waste, View Map Display" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="75" y="65" width="55" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Recycling Facility Representative" type="externalEntity" source="" flow="Update Facility Information" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="130" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Admin" type="externalEntity" source="" flow="Add or Remove Facility Information" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-3">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="70" y="260" width="65" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Enter Zip Code" type="process" source="1" flow="Nearby Facilities List" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="360" y="65" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Update Facility Information" type="process" source="2" flow="Facility Information Update" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="325" y="195" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Select Recyclable Waste" type="process" source="1" flow="Facilities Accepting Type, Opening Hours" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="330" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Add or Remove Facility Information" type="process" source="3" flow="Facility Information Update" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="305" y="260" width="215" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View Map Display" type="process" source="1" flow="Map Display of Public Recycling Bins" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="350" y="130" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Recycling Facilities Information" type="dataStore" source="4,5,6,7" flow="Nearby Facilities List, Facility Information Update" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="625" y="130" width="195" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Recyclable Materials Information" type="dataStore" source="6" flow="Facilities Accepting Type" placeholders="1" id="bF-ytsm-2U2-c0HfTIyw-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="620" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-11" value="Nearby Facilities List" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-1" target="bF-ytsm-2U2-c0HfTIyw-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="219" y="82.5" />
+              <mxPoint x="293" y="82.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-12" value="Facility Information Update" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-2" target="bF-ytsm-2U2-c0HfTIyw-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="147.5" />
+              <mxPoint x="293" y="212.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-13" value="Facilities Accepting Type, Opening Hours" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-1" target="bF-ytsm-2U2-c0HfTIyw-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="74.16666666666667" />
+              <mxPoint x="293" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-14" value="Facility Information Update" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-3" target="bF-ytsm-2U2-c0HfTIyw-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="277.5" />
+              <mxPoint x="293" y="277.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-15" value="Map Display of Public Recycling Bins" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-1" target="bF-ytsm-2U2-c0HfTIyw-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="90.83333333333333" />
+              <mxPoint x="293" y="147.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-16" value="Nearby Facilities List, Facility Information Update" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-4" target="bF-ytsm-2U2-c0HfTIyw-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="82.5" />
+              <mxPoint x="606" y="143.125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-17" value="Nearby Facilities List, Facility Information Update" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-5" target="bF-ytsm-2U2-c0HfTIyw-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="212.5" />
+              <mxPoint x="606" y="151.875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-18" value="Nearby Facilities List, Facility Information Update" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-6" target="bF-ytsm-2U2-c0HfTIyw-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="23.75" />
+              <mxPoint x="608" y="134.375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-19" value="Nearby Facilities List, Facility Information Update" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-7" target="bF-ytsm-2U2-c0HfTIyw-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="277.5" />
+              <mxPoint x="608" y="160.625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF-ytsm-2U2-c0HfTIyw-20" value="Facilities Accepting Type" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="bF-ytsm-2U2-c0HfTIyw-6" target="bF-ytsm-2U2-c0HfTIyw-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="11.25" />
+              <mxPoint x="608" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

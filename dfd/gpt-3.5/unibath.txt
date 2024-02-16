@@ -1,0 +1,40 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Depositor","externalEntity",,""
+2,"External Collaborator","externalEntity",,""
+3,"Research Facility Manager","externalEntity",,""
+4,"Developer","externalEntity",,""
+5,"Datasets","dataStore",,""
+6,"Publications in Opus","dataStore",,""
+7,"Archive","dataStore",,""
+8,"Privileged Access Request","dataStore",,""
+9,"Deposit Data Request","dataStore",,""
+10,"API (SWORD2)","dataStore",,""
+11,"Deposit Data","process","1,4","Depositor,Developer"
+12,"Link Datasets to Publications","process","1","Depositor"
+13,"Gain Privileged Access to Data","process","2","External Collaborator"
+14,"Deposit Facility Data into Archive","process","3","Research Facility Manager"
+15,"Deposit and Maintain Datasets via API","process","4","Developer"
+16,"Request Privileged Access","process","2","External Collaborator"
+17,"Request Data Deposit","process","1,3","Depositor,Research Facility Manager"
+18,"Approve Privileged Access Request","process","1,3","Depositor,Research Facility Manager"
+19,"Approve Data Deposit Request","process","1,3","Depositor,Research Facility Manager"
+20,"Grant Privileged Access","process","1,3","Depositor,Research Facility Manager"
+21,"Grant Data Deposit","process","1,3","Depositor,Research Facility Manager"
+22,"Access Deposited Data","process","1,2,3,4","Depositor,External Collaborator,Research Facility Manager,Developer"

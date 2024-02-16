@@ -1,0 +1,32 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Public User","externalEntity",,""
+2,"Search for Information","process","1","Requested Information"
+3,"Property Database","dataStore","2","Requested Information"
+4,"County Services Database","dataStore","2","Requested Information"
+5,"Processes Database","dataStore","2","Requested Information"
+6,"General Information Database","dataStore","2","Requested Information"
+7,"Pre-Application Assistance Request","process","1","Assistance Required Information"
+8,"Staff Member","externalEntity","7","Assistance Available Information"
+9,"Formal Meeting Schedule","dataStore","8","Meeting Details"
+10,"Information Package","dataStore","8","Shared Information"
+11,"Submission Form","process","1","Application Details"
+12,"Applicant Profile","dataStore","11","Applicant Information"
+13,"Plans & Documents Archive","dataStore","11","Attachments"
+14,"Completeness Check","process","12, 13","Review Status

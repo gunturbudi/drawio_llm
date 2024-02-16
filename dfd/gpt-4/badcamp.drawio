@@ -1,0 +1,170 @@
+<mxfile host="Electron" modified="2024-02-04T12:24:48.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Cs1KksEBV3YewQ2cHJVT" version="23.0.2" type="device">
+  <diagram name="Page-1" id="npqhvxF0rwNUU7elZonO">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Anonymous User" type="externalEntity" source="" flow="" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="32.5" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Training Coordinator" type="externalEntity" source="" flow="" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="255" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Attendee" type="externalEntity" source="" flow="" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-3">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="160" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Trainer" type="externalEntity" source="" flow="" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-4">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="35" y="326.25" width="65" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View List of Sponsors" type="process" source="1" flow="Sponsor Information" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="225" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Sponsor Information" type="dataStore" source="5" flow="Sponsor Information" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-6">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="470" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View User Profiles" type="process" source="1" flow="User Profile Information" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="235" y="65" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Profiles" type="dataStore" source="7" flow="User Profile Information" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="490" y="65" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Email Trainers" type="process" source="2" flow="Training Updates" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="245" y="255" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Trainer Information" type="dataStore" source="9,4" flow="Trainer Email Addresses,Training Updates" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="460" y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Access Conference Map" type="process" source="3" flow="Building and Room Locations" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-11">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="175" y="160" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Conference Map" type="dataStore" source="11" flow="Building and Room Locations" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-12">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="430" y="160" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Edit Training Node" type="process" source="4" flow="Training Node Updates" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-13">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="235" y="350" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Training Nodes" type="dataStore" source="13" flow="Training Node Information" placeholders="1" id="nTh1zItlSVQ2ghKFsNgY-14">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="470" y="350" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-15" value="Sponsor Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-1" target="nTh1zItlSVQ2ghKFsNgY-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137" y="43.75" />
+              <mxPoint x="213" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-16" value="Sponsor Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-5" target="nTh1zItlSVQ2ghKFsNgY-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="17.5" />
+              <mxPoint x="458" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-17" value="User Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-1" target="nTh1zItlSVQ2ghKFsNgY-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137" y="56.25" />
+              <mxPoint x="213" y="82.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-18" value="User Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-7" target="nTh1zItlSVQ2ghKFsNgY-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="82.5" />
+              <mxPoint x="458" y="82.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-19" value="Training Updates" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-2" target="nTh1zItlSVQ2ghKFsNgY-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="272.5" />
+              <mxPoint x="223" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-20" value="Trainer Email Addresses,Training Updates" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-9" target="nTh1zItlSVQ2ghKFsNgY-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="272.5" />
+              <mxPoint x="448" y="281.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-21" value="Trainer Email Addresses,Training Updates" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-4" target="nTh1zItlSVQ2ghKFsNgY-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="337.5" />
+              <mxPoint x="185" y="320" />
+              <mxPoint x="410" y="320" />
+              <mxPoint x="448" y="293.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-22" value="Building and Room Locations" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-3" target="nTh1zItlSVQ2ghKFsNgY-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="177.5" />
+              <mxPoint x="163" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-23" value="Building and Room Locations" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-11" target="nTh1zItlSVQ2ghKFsNgY-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="342" y="177.5" />
+              <mxPoint x="418" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-24" value="Training Node Updates" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-4" target="nTh1zItlSVQ2ghKFsNgY-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="350" />
+              <mxPoint x="223" y="367.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTh1zItlSVQ2ghKFsNgY-25" value="Training Node Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="nTh1zItlSVQ2ghKFsNgY-13" target="nTh1zItlSVQ2ghKFsNgY-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="367.5" />
+              <mxPoint x="448" y="367.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

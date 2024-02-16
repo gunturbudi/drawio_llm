@@ -1,0 +1,38 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"User","externalEntity",,""
+2,"Recycling Facility Representative","externalEntity",,""
+3,"Admin","externalEntity",,""
+4,"Recycling Facilities","dataStore","3","Facility Information"
+5,"User Zip Code","dataStore","1","Zip Code"
+6,"Recyclable Waste Types","dataStore","1","Waste Types"
+7,"Recycling Facilities List","dataStore","1","Facility List"
+8,"Recycling Facilities List","dataStore","2","Facility List"
+9,"Facility Information","dataStore","4","Facility Information"
+10,"User Map Display","dataStore","1","Map Display"
+11,"User Map Display","dataStore","5","Map Display"
+12,"User Map Display","dataStore","2","Map Display"
+13,"Enter Zip Code","process","1","User Zip Code, Recycling Facilities List"
+14,"Update Facility Information","process","2","Facility Information"
+15,"Select Recyclable Waste Types","process","1","Recyclable Waste Types, Recycling Facilities List"
+16,"Add or Remove Facility Information","process","3","Facility Information"
+17,"View Map Display","process","1","User Map Display"
+18,"View Map Display","process","2","User Map Display"
+19,"View Map Display","process","5","User Map Display"
+20,"View Map Display","process","4","User Map Display"

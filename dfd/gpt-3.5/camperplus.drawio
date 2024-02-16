@@ -1,0 +1,158 @@
+<mxfile host="Electron" modified="2024-02-04T10:47:37.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="QIw3nXZLlOwOeCTN2zTK" version="23.0.2" type="device">
+  <diagram name="Page-1" id="gtMK6D7TzfQwX9hQvoyK">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Parent" type="externalEntity" source="" flow="" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="35" y="65" width="65" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Camp Administrator" type="externalEntity" source="" flow="" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="195" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Message Child&#39;s Counselors" type="process" source="1" flow="Parent Message" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="240" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Share Camp Photos" type="process" source="1" flow="Camp Photo" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="265" y="65" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Provide Bi-weekly Feedback" type="process" source="2" flow="Feedback" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="245" y="195" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Notify Parents" type="process" source="2" flow="Notification" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="280" y="260" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Submit Feedback and Concerns" type="process" source="1,2" flow="Feedback" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="235" y="130" width="195" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Counselor Messages" type="dataStore" source="3" flow="Parent Message" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="535" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Camp Photos" type="dataStore" source="4" flow="Camp Photo" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="555" y="65" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Feedback Records" type="dataStore" source="5" flow="Feedback" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="545" y="195" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Notification Records" type="dataStore" source="6" flow="Notification" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-11">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="540" y="260" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Feedback and Concerns" type="dataStore" source="7" flow="Feedback" placeholders="1" id="v33Z5hv89Zf1H2KjbM1c-12">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="530" y="130" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-13" value="Parent Message" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-1" target="v33Z5hv89Zf1H2KjbM1c-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="74.16666666666667" />
+              <mxPoint x="223" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-14" value="Camp Photo" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-1" target="v33Z5hv89Zf1H2KjbM1c-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="149" y="82.5" />
+              <mxPoint x="223" y="82.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-15" value="Feedback" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-2" target="v33Z5hv89Zf1H2KjbM1c-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="149" y="212.5" />
+              <mxPoint x="223" y="212.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-16" value="Notification" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-2" target="v33Z5hv89Zf1H2KjbM1c-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="220.83333333333334" />
+              <mxPoint x="223" y="277.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-17" value="Feedback" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-1" target="v33Z5hv89Zf1H2KjbM1c-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="90.83333333333333" />
+              <mxPoint x="223" y="141.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-18" value="Feedback" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-2" target="v33Z5hv89Zf1H2KjbM1c-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="204.16666666666666" />
+              <mxPoint x="223" y="153.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-19" value="Parent Message" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-3" target="v33Z5hv89Zf1H2KjbM1c-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="17.5" />
+              <mxPoint x="518" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-20" value="Camp Photo" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-4" target="v33Z5hv89Zf1H2KjbM1c-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="82.5" />
+              <mxPoint x="518" y="82.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-21" value="Feedback" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-5" target="v33Z5hv89Zf1H2KjbM1c-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="212.5" />
+              <mxPoint x="518" y="212.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-22" value="Notification" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-6" target="v33Z5hv89Zf1H2KjbM1c-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="277.5" />
+              <mxPoint x="518" y="277.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v33Z5hv89Zf1H2KjbM1c-23" value="Feedback" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="v33Z5hv89Zf1H2KjbM1c-7" target="v33Z5hv89Zf1H2KjbM1c-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="147.5" />
+              <mxPoint x="518" y="147.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

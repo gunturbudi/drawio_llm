@@ -1,0 +1,119 @@
+<mxfile host="Electron" modified="2024-02-04T20:59:28.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="fwNv8r2lpTc3BS-JXSc0" version="23.0.2" type="device">
+  <diagram name="Page-1" id="J2TflACvbUBrQByAFKef">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Stakeholders" type="externalEntity" placeholders="1" id="ABII8s_c9pJXBlOYWwV5-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="50" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Research Plan" type="process" source="1" flow="Stakeholders" placeholders="1" id="ABII8s_c9pJXBlOYWwV5-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="30" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="In-person Interviews" type="process" source="2" flow="User Research Plan" placeholders="1" id="ABII8s_c9pJXBlOYWwV5-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="30" y="270" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Finalized OLPA Task Script" type="dataStore" source="3" flow="In-person Interviews" placeholders="1" id="ABII8s_c9pJXBlOYWwV5-4">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="10" y="405" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Research Participants" type="externalEntity" source="4" flow="Finalized OLPA Task Script" placeholders="1" id="ABII8s_c9pJXBlOYWwV5-5">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="25" y="540" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Prototype Appearance Check" type="process" source="5" flow="Research Participants" placeholders="1" id="ABII8s_c9pJXBlOYWwV5-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="5" y="675" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Interview Completion" type="process" source="6" flow="Prototype Appearance Check" placeholders="1" id="ABII8s_c9pJXBlOYWwV5-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="15" y="810" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="WIG Prototype" type="dataStore" source="7" flow="User Interview Completion" placeholders="1" id="ABII8s_c9pJXBlOYWwV5-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="45" y="945" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Second Task Script Finalization" type="process" source="8" flow="WIG Prototype" placeholders="1" id="ABII8s_c9pJXBlOYWwV5-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="1080" width="195" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ABII8s_c9pJXBlOYWwV5-10" value="Stakeholders" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ABII8s_c9pJXBlOYWwV5-1" target="ABII8s_c9pJXBlOYWwV5-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97.5" y="47" />
+              <mxPoint x="97.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ABII8s_c9pJXBlOYWwV5-11" value="User Research Plan" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ABII8s_c9pJXBlOYWwV5-2" target="ABII8s_c9pJXBlOYWwV5-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97.5" y="182" />
+              <mxPoint x="97.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ABII8s_c9pJXBlOYWwV5-12" value="In-person Interviews" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ABII8s_c9pJXBlOYWwV5-3" target="ABII8s_c9pJXBlOYWwV5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97.5" y="317" />
+              <mxPoint x="97.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ABII8s_c9pJXBlOYWwV5-13" value="Finalized OLPA Task Script" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ABII8s_c9pJXBlOYWwV5-4" target="ABII8s_c9pJXBlOYWwV5-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97.5" y="452" />
+              <mxPoint x="97.5" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ABII8s_c9pJXBlOYWwV5-14" value="Research Participants" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ABII8s_c9pJXBlOYWwV5-5" target="ABII8s_c9pJXBlOYWwV5-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97.5" y="587" />
+              <mxPoint x="97.5" y="663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ABII8s_c9pJXBlOYWwV5-15" value="Prototype Appearance Check" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ABII8s_c9pJXBlOYWwV5-6" target="ABII8s_c9pJXBlOYWwV5-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97.5" y="722" />
+              <mxPoint x="97.5" y="798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ABII8s_c9pJXBlOYWwV5-16" value="User Interview Completion" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ABII8s_c9pJXBlOYWwV5-7" target="ABII8s_c9pJXBlOYWwV5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97.5" y="857" />
+              <mxPoint x="97.5" y="933" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ABII8s_c9pJXBlOYWwV5-17" value="WIG Prototype" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ABII8s_c9pJXBlOYWwV5-8" target="ABII8s_c9pJXBlOYWwV5-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97.5" y="992" />
+              <mxPoint x="97.5" y="1068" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

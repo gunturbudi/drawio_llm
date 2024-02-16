@@ -1,0 +1,5 @@
+As a researcher, I want to have electronic support for keeping track of which data sets were used/output/modified as part of a particular experiment, so that I can accurately document the data lineage and ensure reproducibility.
+As a researcher, I want to share post-experiment write-ups with other researchers, so that others can more easily replicate my work and build upon my findings.
+As a researcher, I want to collect data as a library of data, which can then be used by one or multiple experiments that are defined at a later stage, to facilitate efficient reuse and analysis of collected data.
+As a researcher, I want to indicate within my electronic log book which experimental data is good/bad, hide the bad data, but still keep it in the system just in case it becomes useful in the future.
+As a researcher, I want to have the system provide standard metadata, that all researchers in the centre (and beyond) can use, so that we can better understand each other's data and facilitate cross-disciplinary research.

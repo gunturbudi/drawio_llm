@@ -1,0 +1,28 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Publisher","externalEntity",,
+2,"Consumer","externalEntity",,
+3,"Publish Private Dataset","process","1","Private Dataset Access"
+4,"Private Dataset Repository","dataStore","3","Private Dataset Access"
+5,"Browse Public Datasets","process","2","Dataset Information"
+6,"Public Dataset Registry","dataStore","5","Dataset Information"
+7,"Update Data Package","process","1","Data Package Updates"
+8,"Validate Data Package","process","2","Validation Confirmation"
+9,"Version Data Package","process","1","Version Information"
+10,"Data Package Versions","dataStore","9","Version Information"

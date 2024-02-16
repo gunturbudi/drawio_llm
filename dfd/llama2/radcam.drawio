@@ -1,0 +1,158 @@
+<mxfile host="Electron" modified="2024-02-04T21:01:27.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="vnfQyhVYFafZMY3nX7JK" version="23.0.2" type="device">
+  <diagram name="Page-1" id="g1F8eEEPTAYhTP4J4wMl">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Archivist" type="externalEntity" source="" flow="" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="390" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apply License/Rights Statement" type="process" source="1" flow="File Metadata" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="195" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="File Metadata" type="dataStore" source="2" flow="License/Rights Statement" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-3">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="40" y="270" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Restrict File" type="process" source="1" flow="File Metadata" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="225" y="135" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Restricted Files" type="dataStore" source="4" flow="File Metadata" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-5">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="175" y="270" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Set Restriction End Date" type="process" source="1" flow="File Metadata" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="350" y="135" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Remove Restrictions" type="process" source="6" flow="File Metadata" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="320" y="270" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="IP Address Restriction" type="process" source="1" flow="File Metadata" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="535" y="135" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Reading Room Access" type="dataStore" source="8" flow="File Metadata" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="485" y="270" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Scan Photo" type="process" source="1" flow="Photo Metadata" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-10">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="710" y="135" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="License Photo" type="process" source="10" flow="Photo Metadata" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-11">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="703.59375" y="270" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Photo Metadata" type="dataStore" source="11" flow="Licensed Photos" placeholders="1" id="fQI_x9p7eYYNsyLz7rw0-12">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="698.59375" y="405" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-13" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-1" target="fQI_x9p7eYYNsyLz7rw0-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="401.5" y="47" />
+              <mxPoint x="97.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-14" value="License/Rights Statement" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-2" target="fQI_x9p7eYYNsyLz7rw0-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97.5" y="182" />
+              <mxPoint x="92.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-15" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-1" target="fQI_x9p7eYYNsyLz7rw0-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414.5" y="49" />
+              <mxPoint x="272.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-16" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-4" target="fQI_x9p7eYYNsyLz7rw0-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="272.5" y="182" />
+              <mxPoint x="232.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-17" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-1" target="fQI_x9p7eYYNsyLz7rw0-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427.5" y="51" />
+              <mxPoint x="427.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-18" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-6" target="fQI_x9p7eYYNsyLz7rw0-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427.5" y="182" />
+              <mxPoint x="387.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-19" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-1" target="fQI_x9p7eYYNsyLz7rw0-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440.5" y="49" />
+              <mxPoint x="607.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-20" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-8" target="fQI_x9p7eYYNsyLz7rw0-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="607.5" y="182" />
+              <mxPoint x="557.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-21" value="Photo Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-1" target="fQI_x9p7eYYNsyLz7rw0-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="453.5" y="47" />
+              <mxPoint x="757.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-22" value="Photo Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-10" target="fQI_x9p7eYYNsyLz7rw0-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="757.5" y="182" />
+              <mxPoint x="756.09375" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQI_x9p7eYYNsyLz7rw0-23" value="Licensed Photos" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="fQI_x9p7eYYNsyLz7rw0-11" target="fQI_x9p7eYYNsyLz7rw0-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756.09375" y="317" />
+              <mxPoint x="756.09375" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

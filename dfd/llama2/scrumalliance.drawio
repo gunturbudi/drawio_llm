@@ -1,0 +1,158 @@
+<mxfile host="Electron" modified="2024-02-04T21:04:52.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="LShi0hh5_e7d1lZFSfBV" version="23.0.2" type="device">
+  <diagram name="Page-1" id="F7FyWtfr8qxpPn52nX-V">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Site Members" type="externalEntity" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="152.265625" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Describe Self" type="process" source="1" flow="User Input" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="157.265625" y="135" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Semi-Structured Profile" type="dataStore " source="2" flow="User Profile" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-3">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="128.90625" y="270" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Practitioner Profile" type="process " source="3" flow="Practitioner Details" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-4">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry y="405" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Practitioner Details" type="dataStore " source="4" flow="Practitioner Profile" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-5">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry y="540" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Trainer Profile" type="process " source="3" flow="Trainer Details" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-6">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="155" y="405" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Trainer Details" type="dataStore " source="6" flow="Trainer Profile" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-7">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="155" y="540" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Private Profile" type="process " source="3" flow="Privacy Setting" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-8">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="290" y="405" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Privacy Setting" type="dataStore " source="8" flow="Profile Visibility" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-9">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="290" y="540" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Upcoming Classes" type="process " source="7" flow="Class Listing" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-10">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="141.25" y="675" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Class Listing" type="dataStore " source="10" flow="Class Details" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-11">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="154.375" y="810" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Class Details" type="process " source="11" flow="Link to Class Page" placeholders="1" id="IBRKznAsBHAI-HRdyGzO-12">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="154.375" y="945" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-13" value="User Input" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-1" target="IBRKznAsBHAI-HRdyGzO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204.765625" y="47" />
+              <mxPoint x="204.765625" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-14" value="User Profile" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-2" target="IBRKznAsBHAI-HRdyGzO-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204.765625" y="182" />
+              <mxPoint x="206.40625" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-15" value="Practitioner Details" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-3" target="IBRKznAsBHAI-HRdyGzO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="158.07291666666666" y="317" />
+              <mxPoint x="62.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-16" value="Practitioner Profile" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-4" target="IBRKznAsBHAI-HRdyGzO-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="62.5" y="452" />
+              <mxPoint x="62.5" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-17" value="Trainer Details" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-3" target="IBRKznAsBHAI-HRdyGzO-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="206.40625" y="319" />
+              <mxPoint x="207.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-18" value="Trainer Profile" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-6" target="IBRKznAsBHAI-HRdyGzO-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207.5" y="452" />
+              <mxPoint x="207.5" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-19" value="Privacy Setting" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-3" target="IBRKznAsBHAI-HRdyGzO-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254.73958333333334" y="317" />
+              <mxPoint x="342.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-20" value="Profile Visibility" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-8" target="IBRKznAsBHAI-HRdyGzO-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="342.5" y="452" />
+              <mxPoint x="342.5" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-21" value="Class Listing" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-7" target="IBRKznAsBHAI-HRdyGzO-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207.5" y="587" />
+              <mxPoint x="203.75" y="663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-22" value="Class Details" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-10" target="IBRKznAsBHAI-HRdyGzO-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="203.75" y="722" />
+              <mxPoint x="201.875" y="798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBRKznAsBHAI-HRdyGzO-23" value="Link to Class Page" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="IBRKznAsBHAI-HRdyGzO-11" target="IBRKznAsBHAI-HRdyGzO-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="201.875" y="857" />
+              <mxPoint x="201.875" y="933" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

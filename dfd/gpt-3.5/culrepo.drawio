@@ -1,0 +1,178 @@
+<mxfile host="Electron" modified="2024-02-04T10:49:11.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="aujsDDMhlDDFNpC7Q0CR" version="23.0.2" type="device">
+  <diagram name="Page-1" id="MUNPvd3ACw6kFjhBtejC">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Faculty Member" type="externalEntity" source="" flow="" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Repository Access" type="process" source="1" flow="Access Request" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="215" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Collection" type="dataStore" source="2" flow="Research Materials" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-3">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="440" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Faculty Member" type="externalEntity" source="" flow="" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-4">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="95" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Linking to Content" type="process" source="4" flow="Link Request" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="215" y="95" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Item" type="dataStore" source="5" flow="Linked Content" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-6">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="440" y="95" width="55" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cornell Faculty Member" type="externalEntity" source="" flow="" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-7">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="222.5" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Data Upload" type="process" source="7" flow="Data and Publication Association" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="255" y="222.5" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Data Repository" type="dataStore" source="8" flow="Uploaded Data" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="450" y="190" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Publication" type="dataStore" source="8" flow="Associated Publications" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="465" y="255" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Patron" type="externalEntity" source="" flow="" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-11">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="350" width="65" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Report/Dataset Information" type="process" source="11" flow="Information Request" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-12">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="165" y="350" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Reports/Datasets" type="dataStore" source="12" flow="Report/Dataset Information" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-13">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="440" y="350" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Patron" type="externalEntity" source="" flow="" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-14">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="445" width="65" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Email Selection" type="process" source="14" flow="Selection Request" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-15">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="165" y="445" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Reports/Datasets" type="dataStore" source="15" flow="Selected Report/Dataset" placeholders="1" id="5fT8TSgvjkj9puPZQ_QJ-16">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="380" y="445" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-17" value="Access Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-1" target="5fT8TSgvjkj9puPZQ_QJ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="17.5" />
+              <mxPoint x="203" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-18" value="Research Materials" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-2" target="5fT8TSgvjkj9puPZQ_QJ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="17.5" />
+              <mxPoint x="428" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-19" value="Link Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-4" target="5fT8TSgvjkj9puPZQ_QJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="112.5" />
+              <mxPoint x="203" y="112.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-20" value="Linked Content" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-5" target="5fT8TSgvjkj9puPZQ_QJ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="112.5" />
+              <mxPoint x="428" y="112.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-21" value="Data and Publication Association" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-7" target="5fT8TSgvjkj9puPZQ_QJ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="167" y="240" />
+              <mxPoint x="243" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-22" value="Uploaded Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-8" target="5fT8TSgvjkj9puPZQ_QJ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362" y="233.75" />
+              <mxPoint x="438" y="207.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-23" value="Associated Publications" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-8" target="5fT8TSgvjkj9puPZQ_QJ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362" y="246.25" />
+              <mxPoint x="438" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-24" value="Information Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-11" target="5fT8TSgvjkj9puPZQ_QJ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="77" y="367.5" />
+              <mxPoint x="153" y="367.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-25" value="Report/Dataset Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-12" target="5fT8TSgvjkj9puPZQ_QJ-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="367.5" />
+              <mxPoint x="428" y="367.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-26" value="Selection Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-14" target="5fT8TSgvjkj9puPZQ_QJ-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="77" y="462.5" />
+              <mxPoint x="153" y="462.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fT8TSgvjkj9puPZQ_QJ-27" value="Selected Report/Dataset" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5fT8TSgvjkj9puPZQ_QJ-15" target="5fT8TSgvjkj9puPZQ_QJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="292" y="462.5" />
+              <mxPoint x="368" y="462.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

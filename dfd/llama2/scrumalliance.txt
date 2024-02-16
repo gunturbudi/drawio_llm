@@ -1,0 +1,30 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Site Members","externalEntity"
+2,"Describe Self","process","1","User Input"
+3,"Semi-Structured Profile","dataStore" ,"2","User Profile"
+4,"Practitioner Profile","process" ,"3","Practitioner Details"
+5,"Practitioner Details","dataStore" ,"4","Practitioner Profile"
+6,"Trainer Profile","process" ,"3","Trainer Details"
+7,"Trainer Details","dataStore" ,"6","Trainer Profile"
+8,"Private Profile","process" ,"3","Privacy Setting"
+9,"Privacy Setting","dataStore" ,"8","Profile Visibility"
+10,"Upcoming Classes","process" ,"7","Class Listing"
+11,"Class Listing","dataStore" ,"10","Class Details"
+12,"Class Details","process" ,"11","Link to Class Page"

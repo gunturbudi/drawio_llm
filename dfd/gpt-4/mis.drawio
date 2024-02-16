@@ -1,0 +1,153 @@
+<mxfile host="Electron" modified="2024-02-04T12:35:23.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="vwzeXcP3RjHL9vjP8po3" version="23.0.2" type="device">
+  <diagram name="Page-1" id="5wOULueDRewPP5N-BNJ9">
+    <mxGraphModel dx="1621" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Collection Curator" type="externalEntity" source="" flow="" placeholders="1" id="tIN8pDXRof5AwU8trU31-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="150" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Repository Manager" type="externalEntity" source="" flow="" placeholders="1" id="tIN8pDXRof5AwU8trU31-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="682.5" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Set Data Expiry" type="process" source="1" flow="Expiry Date Setting" placeholders="1" id="tIN8pDXRof5AwU8trU31-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View Deletion Dates" type="process" source="1" flow="Deletion Date Display" placeholders="1" id="tIN8pDXRof5AwU8trU31-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="145" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Track Financial Responsibility" type="process" source="2" flow="Financial Responsibility Tracking" placeholders="1" id="tIN8pDXRof5AwU8trU31-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="555" y="135" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Run Storage Cost Report" type="process" source="2" flow="Storage Cost Report Generation" placeholders="1" id="tIN8pDXRof5AwU8trU31-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="770" y="135" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Map Items Across Collections" type="process" source="1" flow="Collection Mapping" placeholders="1" id="tIN8pDXRof5AwU8trU31-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="310" y="135" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Item Records" type="dataStore" source="3,4,7" flow="Expiry Date Setting,Deletion Date Display,Collection Mapping" placeholders="1" id="tIN8pDXRof5AwU8trU31-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="165" y="270" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Deletion Schedules" type="dataStore" source="3" flow="Expiry Date Setting" placeholders="1" id="tIN8pDXRof5AwU8trU31-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="-10" y="270" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Financial Responsibility Info" type="dataStore" source="5" flow="Financial Responsibility Tracking" placeholders="1" id="tIN8pDXRof5AwU8trU31-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="555" y="270" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Storage Consumption Data" type="dataStore" source="6" flow="Storage Cost Report Generation" placeholders="1" id="tIN8pDXRof5AwU8trU31-11">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="765" y="270" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tIN8pDXRof5AwU8trU31-12" value="Expiry Date Setting" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-1" target="tIN8pDXRof5AwU8trU31-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="174.16666666666666" y="47" />
+              <mxPoint x="57.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-13" value="Deletion Date Display" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-1" target="tIN8pDXRof5AwU8trU31-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212.5" y="49" />
+              <mxPoint x="212.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-14" value="Financial Responsibility Tracking" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-2" target="tIN8pDXRof5AwU8trU31-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="718.75" y="47" />
+              <mxPoint x="647.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-15" value="Storage Cost Report Generation" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-2" target="tIN8pDXRof5AwU8trU31-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="781.25" y="47" />
+              <mxPoint x="852.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-16" value="Collection Mapping" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-1" target="tIN8pDXRof5AwU8trU31-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250.83333333333334" y="47" />
+              <mxPoint x="402.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-17" value="Expiry Date Setting,Deletion Date Display,Collection Mapping" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-3" target="tIN8pDXRof5AwU8trU31-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="83.75" y="182" />
+              <mxPoint x="184.16666666666666" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-18" value="Expiry Date Setting,Deletion Date Display,Collection Mapping" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-4" target="tIN8pDXRof5AwU8trU31-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212.5" y="182" />
+              <mxPoint x="212.5" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-19" value="Expiry Date Setting,Deletion Date Display,Collection Mapping" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-7" target="tIN8pDXRof5AwU8trU31-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402.5" y="182" />
+              <mxPoint x="240.83333333333334" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-20" value="Expiry Date Setting" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-3" target="tIN8pDXRof5AwU8trU31-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="31.25" y="182" />
+              <mxPoint x="57.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-21" value="Financial Responsibility Tracking" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-5" target="tIN8pDXRof5AwU8trU31-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="647.5" y="182" />
+              <mxPoint x="642.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIN8pDXRof5AwU8trU31-22" value="Storage Cost Report Generation" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="tIN8pDXRof5AwU8trU31-6" target="tIN8pDXRof5AwU8trU31-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="852.5" y="182" />
+              <mxPoint x="852.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

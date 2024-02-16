@@ -1,0 +1,30 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"OlderPerson","externalEntity",,""
+2,"MedicalCaregiver","externalEntity",,""
+3,"Detect Falls","process","1","Fall Detection Alert"
+4,"Send Emergency","process","3","Emergency Notification"
+5,"Emergency Contacts","dataStore","4","Emergency Notification"
+6,"Medicine Reminder","process","1","Reminder"
+7,"Medicine Schedule","dataStore","6","Reminder"
+8,"Medicine Intake Confirmation","process","2","Medicine Intake Data"
+9,"Suggest Recipes","process","1","Recipe Suggestions"
+10,"Recipes","dataStore","9","Recipe Suggestions"
+11,"Locate User","process","2","Location Data"
+12,"User Location","dataStore","11","Location Data"

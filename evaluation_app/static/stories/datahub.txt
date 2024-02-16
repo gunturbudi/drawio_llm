@@ -1,0 +1,5 @@
+As a Publisher, I want to publish a dataset privately, so that I can share sensitive or preliminary data exclusively with my research team, ensuring that only authorized team members can access and collaborate on this dataset.
+As a Consumer, I want to browse public datasets, so that I can find data relevant to my project's needs without the requirement for special access, enabling me to download and utilize the data in my research or development work.
+As a Publisher, I want to update a data package that is already in the registry, so that I can provide the most current and accurate data to the community, ensuring that all users benefit from the latest findings and corrections.
+As a Consumer, I want to be assured that the data package I am downloading has been validated, so that I can trust its quality and integrity for my analysis, saving me time and effort in data cleaning and verification.
+As a Publisher, I want to version my Data Package and maintain multiple versions, so that consumers who depend on a specific version of my data can continue their work uninterrupted even as I release updates.

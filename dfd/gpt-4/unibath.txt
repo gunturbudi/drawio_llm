@@ -1,0 +1,32 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Depositor","externalEntity",,""
+2,"External Collaborator","externalEntity",,""
+3,"Research Facility Manager","externalEntity",,""
+4,"Developer","externalEntity",,""
+5,"Privilege Management","process","1","Grant Access"
+6,"Data Linking","process","1","Link Datasets to Publications"
+7,"Dataset Archive","dataStore","5,7,8,9","Store Datasets"
+8,"Data Deposit","process","3,4","Deposit Data"
+9,"API Interaction","process","4","Maintain Datasets via API"
+10,"Opus Publications","dataStore","6","Link Publications"
+11,"Grant Access","dataFlow","5","2"
+12,"Link Datasets","dataFlow","6","10"
+13,"Deposit Data","dataFlow","8","7"
+14,"Maintain via API","dataFlow","9","7"

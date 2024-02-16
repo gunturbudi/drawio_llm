@@ -1,0 +1,5 @@
+As a faculty member, I want to access a collection within the repository, so that I can obtain research materials.
+As a faculty member, I want to direct students to an item within the repository, so that I can facilitate my teaching (i.e., desires ability to link to content).
+As a Cornell faculty member, I want to upload data to the repository and associate it with a publication, so that I receive attribution for my data as well as my publications.
+As a patron, I want to know which reports/datasets are coming out when, so that I can access the latest report/dataset.
+As a patron, I want to select/deselect reports/datasets to be emailed, possibly many at one time, when new versions are available.

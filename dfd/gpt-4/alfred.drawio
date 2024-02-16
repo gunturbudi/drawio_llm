@@ -1,0 +1,149 @@
+<mxfile host="Electron" modified="2024-02-07T07:16:44.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="_XsfUktY8fCM5b2SQ2fE" version="23.0.2" type="device">
+  <diagram name="Page-1" id="8hDWDAwe_6PS415hDUdU">
+    <mxGraphModel dx="1194" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="OlderPerson" type="externalEntity" source="" flow="" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="145" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="MedicalCaregiver" type="externalEntity" source="" flow="" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="527" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Detect Falls" type="process" source="1" flow="Fall Detection Alert" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="26" y="135" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Send Emergency" type="process" source="3" flow="Emergency Notification" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="12.5625" y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Emergency Contacts" type="dataStore" source="4" flow="Emergency Notification" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-5">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
+            <mxGeometry x="7.5625" y="405" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Medicine Reminder" type="process" source="1" flow="Reminder" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="125" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Medicine Schedule" type="dataStore" source="6" flow="Reminder" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-7">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
+            <mxGeometry x="152.5" y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Medicine Intake Confirmation" type="process" source="2" flow="Medicine Intake Data" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="412" y="135" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Suggest Recipes" type="process" source="1" flow="Recipe Suggestions" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="276" y="135" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Recipes" type="dataStore" source="9" flow="Recipe Suggestions" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
+            <mxGeometry x="296" y="270" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Locate User" type="process" source="2" flow="Location Data" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-11">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" parent="1" vertex="1">
+            <mxGeometry x="627" y="135" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Location" type="dataStore" source="11" flow="Location Data" placeholders="1" id="6OXiNJCl_qYynEcrN5ty-12">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
+            <mxGeometry x="622" y="270" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-13" value="Fall Detection Alert" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6OXiNJCl_qYynEcrN5ty-1" target="6OXiNJCl_qYynEcrN5ty-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="164.16666666666666" y="47" />
+              <mxPoint x="90" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-14" value="Emergency Notification" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="6OXiNJCl_qYynEcrN5ty-3" target="6OXiNJCl_qYynEcrN5ty-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="73.5" y="182" />
+              <mxPoint x="75.0625" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-15" value="Emergency Notification" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="6OXiNJCl_qYynEcrN5ty-4" target="6OXiNJCl_qYynEcrN5ty-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="75.0625" y="317" />
+              <mxPoint x="75.0625" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-16" value="Reminder" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="6OXiNJCl_qYynEcrN5ty-1" target="6OXiNJCl_qYynEcrN5ty-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="192.5" y="49" />
+              <mxPoint x="192.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-17" value="Reminder" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="6OXiNJCl_qYynEcrN5ty-6" target="6OXiNJCl_qYynEcrN5ty-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="192.5" y="182" />
+              <mxPoint x="215" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-18" value="Medicine Intake Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="6OXiNJCl_qYynEcrN5ty-2" target="6OXiNJCl_qYynEcrN5ty-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560.75" y="47" />
+              <mxPoint x="504.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-19" value="Recipe Suggestions" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6OXiNJCl_qYynEcrN5ty-1" target="6OXiNJCl_qYynEcrN5ty-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220.83333333333334" y="47" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-20" value="Recipe Suggestions" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="6OXiNJCl_qYynEcrN5ty-9" target="6OXiNJCl_qYynEcrN5ty-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="333.5" y="182" />
+              <mxPoint x="333.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-21" value="Location Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="6OXiNJCl_qYynEcrN5ty-2" target="6OXiNJCl_qYynEcrN5ty-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="618.25" y="47" />
+              <mxPoint x="674.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OXiNJCl_qYynEcrN5ty-22" value="Location Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" parent="1" source="6OXiNJCl_qYynEcrN5ty-11" target="6OXiNJCl_qYynEcrN5ty-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="674.5" y="182" />
+              <mxPoint x="674.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

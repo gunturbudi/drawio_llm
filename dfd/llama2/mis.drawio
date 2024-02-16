@@ -1,0 +1,157 @@
+<mxfile host="Electron" modified="2024-02-04T20:57:55.614Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="1MPfhEWPG-iJMSPCL8lA" version="23.0.2" type="device">
+  <diagram name="Page-1" id="WdKe6hT6fF33Ky2g1j5v">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Collection Curator" type="externalEntity" source="" flow="" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="178.59375" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Set Data Expiration Date" type="process" source="1" flow="Collection Curator" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="102.34375" y="135" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Scheduled Records Deletion Date Display" type="process" source="2" flow="Collection Curator" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="270" width="255" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Repository Manager" type="externalEntity" source="" flow="" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-4">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="446.51234567901236" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Track Financial Responsibility" type="process" source="4" flow="Repository Manager" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="421.51234567901236" y="135" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Storage Consumption Report" type="process" source="5" flow="Repository Manager" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="315" y="270" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Map Items Across Collections" type="process" source="1,3,6" flow="Collection Curator,Repository Manager" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="270" y="405" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Item Mapping Data Store" type="dataStore" source="7" flow="Item Mapping" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="280" y="540" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Financial Contacts Data Store" type="dataStore" source="5" flow="Financial Contacts" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="530" y="270" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Storage Consumption Data Store" type="dataStore" source="6" flow="Storage Consumption" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="485" y="405" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Scheduled Deletion Date Data Store" type="dataStore" source="3" flow="Scheduled Deletion Date" placeholders="1" id="uysd3A-EKeVEPvXP9Vja-11">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="15" y="405" width="225" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-12" value="Collection Curator" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-1" target="uysd3A-EKeVEPvXP9Vja-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212.34375" y="47" />
+              <mxPoint x="184.84375" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-13" value="Collection Curator" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-2" target="uysd3A-EKeVEPvXP9Vja-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="184.84375" y="182" />
+              <mxPoint x="127.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-14" value="Repository Manager" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-4" target="uysd3A-EKeVEPvXP9Vja-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="514.0123456790124" y="47" />
+              <mxPoint x="514.0123456790124" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-15" value="Repository Manager" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-5" target="uysd3A-EKeVEPvXP9Vja-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470.26234567901236" y="182" />
+              <mxPoint x="407.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-16" value="Collection Curator,Repository Manager" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-1" target="uysd3A-EKeVEPvXP9Vja-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269.84375" y="47" />
+              <mxPoint x="297.34375" y="85" />
+              <mxPoint x="297.34375" y="220" />
+              <mxPoint x="285" y="220" />
+              <mxPoint x="285" y="355" />
+              <mxPoint x="362.5" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-17" value="Collection Curator,Repository Manager" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-3" target="uysd3A-EKeVEPvXP9Vja-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188.75" y="317" />
+              <mxPoint x="304.1666666666667" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-18" value="Collection Curator,Repository Manager" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-6" target="uysd3A-EKeVEPvXP9Vja-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="363.75" y="317" />
+              <mxPoint x="420.8333333333333" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-19" value="Item Mapping" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-7" target="uysd3A-EKeVEPvXP9Vja-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362.5" y="452" />
+              <mxPoint x="362.5" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-20" value="Financial Contacts" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-5" target="uysd3A-EKeVEPvXP9Vja-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="557.7623456790124" y="182" />
+              <mxPoint x="622.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-21" value="Storage Consumption" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-6" target="uysd3A-EKeVEPvXP9Vja-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="451.25" y="317" />
+              <mxPoint x="587.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uysd3A-EKeVEPvXP9Vja-22" value="Scheduled Deletion Date" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="uysd3A-EKeVEPvXP9Vja-3" target="uysd3A-EKeVEPvXP9Vja-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="66.25" y="317" />
+              <mxPoint x="127.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,36 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Publisher","externalEntity",,"Publishes Private Dataset, Updates Data Package, Versions Data Package"
+2,"Consumer","externalEntity",,"Browses Public Datasets, Downloads Data Package, Validates Data Package"
+3,"Registry","externalEntity",,"Manages Data Packages"
+4,"Private Dataset","dataStore","1","Private Data"
+5,"Public Datasets","dataStore","3","Public Data"
+6,"Data Package","dataStore","3","Data Package"
+7,"Versioned Data Package","dataStore","3","Versioned Data Package"
+8,"Publish Private Dataset","process","1,4","Publishes Private Dataset"
+9,"Update Data Package","process","1,6","Updates Data Package"
+10,"Browse Public Datasets","process","2,5","Browses Public Datasets"
+11,"Download Data Package","process","2,6","Downloads Data Package"
+12,"Validate Data Package","process","2,6","Validates Data Package"
+13,"Version Data Package","process","1,7","Versions Data Package"
+14,"Access Private Dataset","dataFlow","1,8","Access Private Dataset"
+15,"Access Public Dataset","dataFlow","2,11","Access Public Dataset"
+16,"Access Validated Data","dataFlow","2,12","Access Validated Data"
+17,"Access Updated Data","dataFlow","1,9","Access Updated Data"
+18,"Access Versioned Data","dataFlow","2,13","Access Versioned Data"

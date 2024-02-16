@@ -1,0 +1,5 @@
+As a user, I want to enter my zip code and get a list of nearby recycling facilities, so that I can determine which ones I should consider.
+As a recycling facility representative, I want to be able to update my information and the type of material I accept, so that I can avoid any miscommunication with users.
+As a user, I want to select different types of recyclable waste and get a list of facilities that accept each type and their opening hours, so that I can find an optimal route and schedule.
+As an admin, I want to be able to add or remove recycling facilities' information, so that users get the most recent information.
+As a user, I want to be able to view a map display of the public recycling bins around my area.

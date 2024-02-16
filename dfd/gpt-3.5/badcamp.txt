@@ -1,0 +1,33 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Anonymous User","externalEntity",,
+2,"View Sponsors List","process","1","Sponsor Information"
+3,"Sponsor Information","dataStore","2","Sponsors"
+4,"View User Profiles","process","1","User Profiles"
+5,"User Profiles","dataStore","4","User Profiles Data"
+6,"Training Coordinator","externalEntity",,
+7,"Email Trainers","process","6","Trainer Emails"
+8,"Trainer Emails","dataStore","7","Email Content"
+9,"Attendee","externalEntity",,
+10,"View Map","process","9","Map Information"
+11,"Map Information","dataStore","10","Map Data"
+12,"Trainer","externalEntity",,
+13,"Edit Training Node","process","12","Training Node"
+14,"Training Node","dataStore","13","Training Node Data"
+15,"Links to Slides","dataStore","13","Links to Slides"

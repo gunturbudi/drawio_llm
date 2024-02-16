@@ -1,0 +1,5 @@
+As a user, I want to view thumbnail sequences of video segments.
+As a user, I want to get info about similar video items and segments.
+As an admin, I want to annotate news video segments and extract a topic for each segment.
+As a user, I want to receive content recommendations from similar profiles.
+As a user, I want to receive content recommendations based on most relevant news events in my area.

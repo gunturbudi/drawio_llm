@@ -1,0 +1,138 @@
+<mxfile host="Electron" modified="2024-02-04T16:05:48.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Z4bHT4lDmFxN9sg07dlV" version="23.0.2" type="device">
+  <diagram name="Page-1" id="pNPXPiQnez6MBofRu_ZF">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Archivist" type="externalEntity" source="" flow="" placeholders="1" id="9CSuAgT6-LXfyBrLFQAM-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="475" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apply License/Rights Statement" type="process" source="1" flow="License/Rights Statement" placeholders="1" id="9CSuAgT6-LXfyBrLFQAM-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="195" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Mark File as Restricted" type="process" source="1" flow="Restriction Status" placeholders="1" id="9CSuAgT6-LXfyBrLFQAM-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="225" y="135" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Set Date for Restriction Removal" type="process" source="1" flow="Restriction Expiration Date" placeholders="1" id="9CSuAgT6-LXfyBrLFQAM-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="410" y="135" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Restrict Access by IP Address" type="process" source="1" flow="Access Restriction" placeholders="1" id="9CSuAgT6-LXfyBrLFQAM-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="645" y="135" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Check Scan Status" type="process" source="1" flow="Scan Status" placeholders="1" id="9CSuAgT6-LXfyBrLFQAM-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="860" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="File Metadata" type="dataStore" source="2,3,4,5,6" flow="File Information" placeholders="1" id="9CSuAgT6-LXfyBrLFQAM-7">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="460" y="270" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="License/Rights Statement" type="dataStore" source="2" flow="License/Rights Statement" placeholders="1" id="9CSuAgT6-LXfyBrLFQAM-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="15" y="270" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-9" value="License/Rights Statement" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-1" target="9CSuAgT6-LXfyBrLFQAM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486.5" y="47" />
+              <mxPoint x="97.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-10" value="Restriction Status" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-1" target="9CSuAgT6-LXfyBrLFQAM-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="499.5" y="49" />
+              <mxPoint x="302.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-11" value="Restriction Expiration Date" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-1" target="9CSuAgT6-LXfyBrLFQAM-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="512.5" y="51" />
+              <mxPoint x="512.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-12" value="Access Restriction" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-1" target="9CSuAgT6-LXfyBrLFQAM-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525.5" y="49" />
+              <mxPoint x="737.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-13" value="Scan Status" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-1" target="9CSuAgT6-LXfyBrLFQAM-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538.5" y="47" />
+              <mxPoint x="927.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-14" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-2" target="9CSuAgT6-LXfyBrLFQAM-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="143.75" y="182" />
+              <mxPoint x="474.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-15" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-3" target="9CSuAgT6-LXfyBrLFQAM-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302.5" y="182" />
+              <mxPoint x="493.5" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-16" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-4" target="9CSuAgT6-LXfyBrLFQAM-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="512.5" y="182" />
+              <mxPoint x="512.5" y="254" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-17" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-5" target="9CSuAgT6-LXfyBrLFQAM-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="737.5" y="182" />
+              <mxPoint x="531.5" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-18" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-6" target="9CSuAgT6-LXfyBrLFQAM-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="927.5" y="182" />
+              <mxPoint x="550.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CSuAgT6-LXfyBrLFQAM-19" value="License/Rights Statement" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="9CSuAgT6-LXfyBrLFQAM-2" target="9CSuAgT6-LXfyBrLFQAM-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="51.25" y="182" />
+              <mxPoint x="97.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

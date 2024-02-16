@@ -1,0 +1,125 @@
+<mxfile host="Electron" modified="2024-02-04T11:28:35.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="P-hVZdLX8sUS58RgOhyx" version="23.0.2" type="device">
+  <diagram name="Page-1" id="PnMjANqjvD_T0rJPcscg">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Archivist" type="externalEntity" source="" flow="" placeholders="1" id="TFW1rpo7SFJIVRgtL6nE-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="130" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apply License or Rights Statement" type="process" source="1" flow="File Information" placeholders="1" id="TFW1rpo7SFJIVRgtL6nE-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="175" width="215" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Mark File as Restricted" type="process" source="1" flow="File Information" placeholders="1" id="TFW1rpo7SFJIVRgtL6nE-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="205" y="65" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Set Removal Date for Restrictions" type="process" source="1" flow="File Information" placeholders="1" id="TFW1rpo7SFJIVRgtL6nE-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="180" y="130" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Restrict Access by IP Address" type="process" source="1" flow="File Information" placeholders="1" id="TFW1rpo7SFJIVRgtL6nE-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="190" y="195" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Check if Photo is Scanned" type="process" source="1" flow="File Information" placeholders="1" id="TFW1rpo7SFJIVRgtL6nE-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="200" y="260" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="File Information" type="dataStore" source="2,3,4,5,6" flow="File Metadata" placeholders="1" id="TFW1rpo7SFJIVRgtL6nE-7">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="490" y="130" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-8" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-1" target="TFW1rpo7SFJIVRgtL6nE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="133.5" />
+              <mxPoint x="163" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-9" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-1" target="TFW1rpo7SFJIVRgtL6nE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="89" y="140.5" />
+              <mxPoint x="163" y="82.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-10" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-1" target="TFW1rpo7SFJIVRgtL6nE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="91" y="147.5" />
+              <mxPoint x="163" y="147.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-11" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-1" target="TFW1rpo7SFJIVRgtL6nE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="89" y="154.5" />
+              <mxPoint x="163" y="212.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-12" value="File Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-1" target="TFW1rpo7SFJIVRgtL6nE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="161.5" />
+              <mxPoint x="163" y="277.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-13" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-2" target="TFW1rpo7SFJIVRgtL6nE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="17.5" />
+              <mxPoint x="478" y="133.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-14" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-3" target="TFW1rpo7SFJIVRgtL6nE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="82.5" />
+              <mxPoint x="476" y="140.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-15" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-4" target="TFW1rpo7SFJIVRgtL6nE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="147.5" />
+              <mxPoint x="474" y="147.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-16" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-5" target="TFW1rpo7SFJIVRgtL6nE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="212.5" />
+              <mxPoint x="476" y="154.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFW1rpo7SFJIVRgtL6nE-17" value="File Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="TFW1rpo7SFJIVRgtL6nE-6" target="TFW1rpo7SFJIVRgtL6nE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="277.5" />
+              <mxPoint x="478" y="161.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

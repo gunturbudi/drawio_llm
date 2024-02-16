@@ -1,0 +1,5 @@
+As a depositor, I want to allow my collaborators privileged access to datasets, so that we continue to have a productive relationship.
+As a depositor, I want to link datasets to publications in Opus, so that both my data and publications are more easily discovered.
+As an externalcollaborator, I want to gain privileged access to data for projects in which I am involved, so that I can collaborate effectively.
+As a research facility manager, I want to deposit data from my facility directly into the archive on behalf of researchers, so that I am no longer required to maintain my own archive of facility data and researchers can access their own data as needed.
+As a developer, I want to deposit and maintain datasets via an API such as SWORD2, so that my service can interact with the archive.

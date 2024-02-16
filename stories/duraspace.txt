@@ -1,0 +1,5 @@
+As a user, I want to list all the collections and objects in the DAMS that belong to a library unit.
+As a user, I want to be able to contact repositories.
+As a DAMS manager, I want to be able to list for browsing all formal collections represented in the DAMS along with the appropriate relationships.
+As a user, I want to be able to browse by collections in the DAMS and limit my search to specified collection(s).
+As a DAMS manager, I want to know the outcome of the event, e.g., object NN was deleted. 

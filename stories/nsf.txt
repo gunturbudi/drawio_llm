@@ -1,0 +1,5 @@
+As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is right for me.
+As a user researcher, I want to test the user research plan, so that I make sure the in-person interviews are effective and capturing the right information.
+As a user researcher, I want to have the finalized OLPA task script, so that I can begin testing with internal users.
+As a research participant, I want to make sure that the appearance of the prototype does not distract from the workflow, so that I can complete the user interview.
+As a user researcher, I want to have the WIG prototype, so that I can finalize the second task script.

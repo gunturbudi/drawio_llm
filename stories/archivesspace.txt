@@ -1,0 +1,5 @@
+As a Basic Data Entry user , I want to create and update basic archival description information.
+As a researcher, I want to be able to view a finding aid for a particular collection/Resource.
+As an Archivist, I want to import EAD files that were exported by Archon.
+As an Archivist, I want to import EAD files that were exported by the Archivists' Toolkit.
+As a ReadOnly user , I want to view archival descriptions in my repository.

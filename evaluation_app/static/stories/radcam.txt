@@ -1,0 +1,5 @@
+As an archivist, I want to apply a license or rights statement, so that I know what I can do with a file.
+As an archivist, I want to mark individual files as restricted, so that they don't get shared by mistake.
+As an archivist, I want to set a date on which restrictions will be removed from a file, so that I don't have to update this by hand.
+As an archivist, I want to restrict access to some files by IP address, so that I can give reading room access only to certain digital files.
+As an archivist, I want to know if a photo has already been scanned, so that I can license it to a researcher.

@@ -1,0 +1,160 @@
+<mxfile host="Electron" modified="2024-02-04T14:37:13.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="B3omBGwawsiXMD7nmrqz" version="23.0.2" type="device">
+  <diagram name="Page-1" id="_gjuviFnvYIZc4KdS4wg">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Anonymous User" type="externalEntity" source="" flow="" placeholders="1" id="a6rcPIJwTUkaGbU19oln-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="102.5" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View List of Sponsors" type="process" source="1" flow="List of Sponsors" placeholders="1" id="a6rcPIJwTUkaGbU19oln-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List of Sponsors" type="dataStore" source="2" flow="Sponsor Information" placeholders="1" id="a6rcPIJwTUkaGbU19oln-3">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="15" y="270" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View List of User Profiles" type="process" source="1" flow="List of User Profiles" placeholders="1" id="a6rcPIJwTUkaGbU19oln-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="175" y="135" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List of User Profiles" type="dataStore" source="4" flow="User Profile Information" placeholders="1" id="a6rcPIJwTUkaGbU19oln-5">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="190" y="270" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Training Coordinator" type="externalEntity" source="" flow="" placeholders="1" id="a6rcPIJwTUkaGbU19oln-6">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="400" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Email Trainers" type="process" source="6" flow="Trainer Email List" placeholders="1" id="a6rcPIJwTUkaGbU19oln-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="415" y="135" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Trainer Email List" type="dataStore" source="7" flow="Trainer Information" placeholders="1" id="a6rcPIJwTUkaGbU19oln-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="405" y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Attendee" type="externalEntity" source="" flow="" placeholders="1" id="a6rcPIJwTUkaGbU19oln-9">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="615" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View Map" type="process" source="9" flow="Conference Map" placeholders="1" id="a6rcPIJwTUkaGbU19oln-10">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="610" y="135" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Conference Map" type="dataStore" source="10" flow="Map Information" placeholders="1" id="a6rcPIJwTUkaGbU19oln-11">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="595" y="270" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Trainer" type="externalEntity" source="" flow="" placeholders="1" id="a6rcPIJwTUkaGbU19oln-12">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="820" width="65" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Edit Training Node" type="process" source="12" flow="Training Node Information" placeholders="1" id="a6rcPIJwTUkaGbU19oln-13">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="790" y="135" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Training Node Information" type="dataStore" source="13" flow="Training Node Details" placeholders="1" id="a6rcPIJwTUkaGbU19oln-14">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="770" y="270" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-15" value="List of Sponsors" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-1" target="a6rcPIJwTUkaGbU19oln-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="136.25" y="47" />
+              <mxPoint x="72.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-16" value="Sponsor Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-2" target="a6rcPIJwTUkaGbU19oln-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="72.5" y="182" />
+              <mxPoint x="72.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-17" value="List of User Profiles" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-1" target="a6rcPIJwTUkaGbU19oln-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="193.75" y="47" />
+              <mxPoint x="257.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-18" value="User Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-4" target="a6rcPIJwTUkaGbU19oln-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="257.5" y="182" />
+              <mxPoint x="257.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-19" value="Trainer Email List" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-6" target="a6rcPIJwTUkaGbU19oln-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467.5" y="47" />
+              <mxPoint x="467.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-20" value="Trainer Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-7" target="a6rcPIJwTUkaGbU19oln-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467.5" y="182" />
+              <mxPoint x="467.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-21" value="Conference Map" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-9" target="a6rcPIJwTUkaGbU19oln-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652.5" y="47" />
+              <mxPoint x="652.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-22" value="Map Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-10" target="a6rcPIJwTUkaGbU19oln-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652.5" y="182" />
+              <mxPoint x="652.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-23" value="Training Node Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-12" target="a6rcPIJwTUkaGbU19oln-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="852.5" y="47" />
+              <mxPoint x="852.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6rcPIJwTUkaGbU19oln-24" value="Training Node Details" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="a6rcPIJwTUkaGbU19oln-13" target="a6rcPIJwTUkaGbU19oln-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="852.5" y="182" />
+              <mxPoint x="852.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

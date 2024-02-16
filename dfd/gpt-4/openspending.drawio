@@ -1,0 +1,140 @@
+<mxfile host="Electron" modified="2024-02-04T12:40:03.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="kA4qic-zvAP0W1_UO-0I" version="23.0.2" type="device">
+  <diagram name="Page-1" id="kXOHfDo4k9CdgP5Czlvq">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Data Consuming User" type="externalEntity" source="" flow="Download Image,Share Image" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="257.5" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Data Publishing User" type="externalEntity" source="" flow="Add Dataset,Edit Dataset,Delete Dataset" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="65" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Download Image" type="process" source="1" flow="Image File" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="245" y="225" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Share Image" type="process" source="1" flow="Social Network" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="255" y="290" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Add Dataset" type="process" source="2" flow="Dataset Storage" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="250" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Edit Dataset" type="process" source="2" flow="Dataset Storage" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="250" y="65" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Delete Dataset" type="process" source="2" flow="Dataset Storage" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="245" y="130" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Image File" type="dataStore" source="3" flow="" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="470" y="225" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Dataset Storage" type="dataStore" source="5,6,7" flow="" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="450" y="65" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Social Network" type="externalEntity" source="4" flow="" placeholders="1" id="6hKLxC60TZY0KTeXJGKK-10">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="460" y="290" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-11" value="Image File" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-1" target="6hKLxC60TZY0KTeXJGKK-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="268.75" />
+              <mxPoint x="233" y="242.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-12" value="Social Network" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-1" target="6hKLxC60TZY0KTeXJGKK-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="281.25" />
+              <mxPoint x="233" y="307.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-13" value="Dataset Storage" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-2" target="6hKLxC60TZY0KTeXJGKK-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="74.16666666666667" />
+              <mxPoint x="233" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-14" value="Dataset Storage" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-2" target="6hKLxC60TZY0KTeXJGKK-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="159" y="82.5" />
+              <mxPoint x="233" y="82.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-15" value="Dataset Storage" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-2" target="6hKLxC60TZY0KTeXJGKK-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="90.83333333333333" />
+              <mxPoint x="233" y="147.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-16" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-3" target="6hKLxC60TZY0KTeXJGKK-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="242.5" />
+              <mxPoint x="448" y="242.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-17" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-5" target="6hKLxC60TZY0KTeXJGKK-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362" y="17.5" />
+              <mxPoint x="438" y="74.16666666666667" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-18" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-6" target="6hKLxC60TZY0KTeXJGKK-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362" y="82.5" />
+              <mxPoint x="436" y="82.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-19" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-7" target="6hKLxC60TZY0KTeXJGKK-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362" y="147.5" />
+              <mxPoint x="438" y="90.83333333333333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hKLxC60TZY0KTeXJGKK-20" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="6hKLxC60TZY0KTeXJGKK-4" target="6hKLxC60TZY0KTeXJGKK-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="307.5" />
+              <mxPoint x="448" y="307.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

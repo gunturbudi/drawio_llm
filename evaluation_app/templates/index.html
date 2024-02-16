@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Selection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Additional styling for cards */
+        .card {
+            margin-bottom: 20px; /* Adds space between cards */
+        }
+        .card-img-top {
+            height: 100px; /* Set consistent height for images */
+            object-fit: cover; /* Ensure images maintain aspect ratio */
+        }
+        .card-title {
+            text-transform: capitalize; /* Convert title to sentence case */
+            font-size: 1.25rem; /* Increase font size for better readability */
+            color: #333; /* Darken the title color for better contrast */
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Welcome to the DFD Evaluation Tool</h1>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="/logout">Logout</a>
+            </li>
+        </ul>
+        <p>Select a project to start evaluating its Data Flow Diagrams:</p>
+        <div class="row mt-3">
+            {% for project in projects %}
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="{{ depiction[project] }}" alt="{{ project }} depiction">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ project }}</h5>
+                        <a target="_blank" href="{{ url_for('compare', project=project) }}" class="btn btn-primary">Evaluate</a>
+                        {% if project_evaluations[project] %}
+                            <span class="badge badge-success">Evaluated</span>
+                        {% else %}
+                            <span class="badge badge-warning">Not Evaluated</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

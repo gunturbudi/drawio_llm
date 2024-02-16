@@ -1,0 +1,171 @@
+<mxfile host="Electron" modified="2024-02-04T11:30:01.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="uNUrwj_LDVyV0aiXjBib" version="23.0.2" type="device">
+  <diagram name="Page-1" id="Vm5BXXrcMnN8zIzV6_b3">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Site Member" type="externalEntity" source="" flow="" placeholders="1" id="htPV9rWc96-5Q2llSswU-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="287.5" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Practitioner" type="externalEntity" source="" flow="" placeholders="1" id="htPV9rWc96-5Q2llSswU-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="5" y="385" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Trainer" type="externalEntity" source="" flow="" placeholders="1" id="htPV9rWc96-5Q2llSswU-3">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="15" y="515" width="65" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Profile Information" type="dataStore" source="" flow="" placeholders="1" id="htPV9rWc96-5Q2llSswU-4">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Upcoming Classes" type="dataStore" source="" flow="" placeholders="1" id="htPV9rWc96-5Q2llSswU-5">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry y="95" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Describe Myself" type="process" source="1" flow="Profile Information" placeholders="1" id="htPV9rWc96-5Q2llSswU-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="255" y="190" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Include Additional Details (Practitioner)" type="process" source="2" flow="Profile Information" placeholders="1" id="htPV9rWc96-5Q2llSswU-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="195" y="450" width="235" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Include Additional Details (Trainer)" type="process" source="3" flow="Profile Information" placeholders="1" id="htPV9rWc96-5Q2llSswU-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="205" y="515" width="215" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Mark Profile as Private" type="process" source="1" flow="Profile Information" placeholders="1" id="htPV9rWc96-5Q2llSswU-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="240" y="255" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List Upcoming Classes" type="process" source="3" flow="Upcoming Classes" placeholders="1" id="htPV9rWc96-5Q2llSswU-10">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="235" y="580" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Link to Detailed Class Page" type="process" source="3" flow="Upcoming Classes" placeholders="1" id="htPV9rWc96-5Q2llSswU-11">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="225" y="645" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View Profile" type="process" source="1,2,3" flow="Profile Information" placeholders="1" id="htPV9rWc96-5Q2llSswU-12">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="265" y="320" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View Upcoming Classes" type="process" source="1,2,3" flow="Upcoming Classes" placeholders="1" id="htPV9rWc96-5Q2llSswU-13">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="235" y="385" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="htPV9rWc96-5Q2llSswU-14" value="Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-1" target="htPV9rWc96-5Q2llSswU-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="291.875" />
+              <mxPoint x="183" y="207.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-15" value="Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-2" target="htPV9rWc96-5Q2llSswU-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="410.8333333333333" />
+              <mxPoint x="183" y="467.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-16" value="Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-3" target="htPV9rWc96-5Q2llSswU-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="111" y="532.5" />
+              <mxPoint x="183" y="532.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-17" value="Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-1" target="htPV9rWc96-5Q2llSswU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="300.625" />
+              <mxPoint x="183" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-18" value="Upcoming Classes" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-3" target="htPV9rWc96-5Q2llSswU-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="539.5" />
+              <mxPoint x="183" y="597.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-19" value="Upcoming Classes" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-3" target="htPV9rWc96-5Q2llSswU-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="546.5" />
+              <mxPoint x="183" y="662.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-20" value="Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-1" target="htPV9rWc96-5Q2llSswU-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="309.375" />
+              <mxPoint x="183" y="329.1666666666667" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-21" value="Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-2" target="htPV9rWc96-5Q2llSswU-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="394.1666666666667" />
+              <mxPoint x="181" y="337.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-22" value="Profile Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-3" target="htPV9rWc96-5Q2llSswU-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="518.5" />
+              <mxPoint x="183" y="345.8333333333333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-23" value="Upcoming Classes" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-1" target="htPV9rWc96-5Q2llSswU-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="318.125" />
+              <mxPoint x="183" y="394.1666666666667" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-24" value="Upcoming Classes" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-2" target="htPV9rWc96-5Q2llSswU-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="402.5" />
+              <mxPoint x="181" y="402.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htPV9rWc96-5Q2llSswU-25" value="Upcoming Classes" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="htPV9rWc96-5Q2llSswU-3" target="htPV9rWc96-5Q2llSswU-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="525.5" />
+              <mxPoint x="183" y="410.8333333333333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

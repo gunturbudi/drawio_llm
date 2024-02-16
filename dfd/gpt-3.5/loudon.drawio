@@ -1,0 +1,155 @@
+<mxfile host="Electron" modified="2024-02-04T10:56:07.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6Yw1Ip4UpRF3kPgCxsTX" version="23.0.2" type="device">
+  <diagram name="Page-1" id="XATC-qFnGumHrT3FY611">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Public User" type="externalEntity" source="" flow="Search Request" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Applicant" type="externalEntity" source="" flow="Pre-Application Request,Application Submission" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="127.5" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Staff member" type="externalEntity" source="" flow="Completeness Review,Formal Response" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-3">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="287.5" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Search for Information" type="process" source="1" flow="Information Search" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="185" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Request Pre-Application Assistance" type="process" source="2" flow="Pre-Application Assistance Request" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="175" y="95" width="215" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Submit Application" type="process" source="2" flow="Application Submission" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="220" y="160" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Perform Completeness Review" type="process" source="3" flow="Completeness Review" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="215" y="255" width="195" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Send Formal Response to Applicant" type="process" source="3" flow="Formal Response" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="205" y="320" width="215" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="County Services Information" type="dataStore" source="4" flow="County Information" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="430" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Pre-Application Requests" type="dataStore" source="5" flow="Pre-Application Requests" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="490" y="95" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Applications" type="dataStore" source="6" flow="Application Data" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-11">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="525" y="160" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Complete Applications" type="dataStore" source="7" flow="Complete Applications Data" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-12">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="525" y="255" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Communication Records" type="dataStore" source="8" flow="Communication Records" placeholders="1" id="XDC1eIxoAVaPoOiySGP9-13">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="520" y="320" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-14" value="Information Search" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-1" target="XDC1eIxoAVaPoOiySGP9-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97" y="17.5" />
+              <mxPoint x="173" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-15" value="Pre-Application Assistance Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-2" target="XDC1eIxoAVaPoOiySGP9-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="138.75" />
+              <mxPoint x="163" y="112.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-16" value="Application Submission" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-2" target="XDC1eIxoAVaPoOiySGP9-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="151.25" />
+              <mxPoint x="163" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-17" value="Completeness Review" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-3" target="XDC1eIxoAVaPoOiySGP9-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="117" y="298.75" />
+              <mxPoint x="193" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-18" value="Formal Response" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-3" target="XDC1eIxoAVaPoOiySGP9-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="117" y="311.25" />
+              <mxPoint x="193" y="337.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-19" value="County Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-4" target="XDC1eIxoAVaPoOiySGP9-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="342" y="17.5" />
+              <mxPoint x="418" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-20" value="Pre-Application Requests" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-5" target="XDC1eIxoAVaPoOiySGP9-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="112.5" />
+              <mxPoint x="478" y="112.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-21" value="Application Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-6" target="XDC1eIxoAVaPoOiySGP9-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="177.5" />
+              <mxPoint x="478" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-22" value="Complete Applications Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-7" target="XDC1eIxoAVaPoOiySGP9-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="432" y="272.5" />
+              <mxPoint x="508" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDC1eIxoAVaPoOiySGP9-23" value="Communication Records" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="XDC1eIxoAVaPoOiySGP9-8" target="XDC1eIxoAVaPoOiySGP9-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="432" y="337.5" />
+              <mxPoint x="508" y="337.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,5 @@
+As a Data Consuming User, I want to be able to download an image ofa particular view state, So that I can use it offline.
+As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.
+As a Data Publishing User, I want to be able to add a dataset in a Hidden state, so that I can work on a dataset before having it discoverable via OpenSpending user interfaces.
+As a Data Publishing User, I want to be able to edit a dataset I have published, so that I can correct or enhance existing data.
+As a Data Publishing User, I want to be able to delete a dataset I have published, so that I can remove unwanted data from OpenSpending.

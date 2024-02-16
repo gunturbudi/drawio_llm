@@ -1,0 +1,119 @@
+<mxfile host="Electron" modified="2024-02-04T16:43:00.887Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="C9tWq0U7h8UXzXGrSJzj" version="23.0.2" type="device">
+  <diagram name="Page-1" id="KDEvwOlSxwDSGHimQjRz">
+    <mxGraphModel dx="1621" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Collection Curator" type="externalEntity" source="" flow="" placeholders="1" id="mWNWnywwz809lk6X5woC-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="332.5" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Set Expiration Date" type="process" source="1" flow="Expiration Date, Item/Component ID" placeholders="1" id="mWNWnywwz809lk6X5woC-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="245" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Display Expiration Date" type="process" source="2" flow="Expiration Date" placeholders="1" id="mWNWnywwz809lk6X5woC-3">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="236.5625" y="270" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Data" type="dataStore" source="3" flow="Expiration Date" placeholders="1" id="mWNWnywwz809lk6X5woC-4">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="286.5625" y="405" width="55" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Repository Manager" type="externalEntity" source="" flow="" placeholders="1" id="mWNWnywwz809lk6X5woC-5">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="25" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Track Financial Responsibility" type="process" source="5" flow="Financial Contact Info, Item ID" placeholders="1" id="mWNWnywwz809lk6X5woC-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Generate Storage Report" type="process" source="6" flow="Storage Usage, Financial Contact Info" placeholders="1" id="mWNWnywwz809lk6X5woC-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="10" y="270" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Collection Mapping" type="process" source="1" flow="Item ID, Destination Collection ID" placeholders="1" id="mWNWnywwz809lk6X5woC-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="410" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Item Data" type="dataStore" source="2,8" flow="Item Information" placeholders="1" id="mWNWnywwz809lk6X5woC-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="432.5" y="270" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="mWNWnywwz809lk6X5woC-10" value="Expiration Date, Item/Component ID" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="mWNWnywwz809lk6X5woC-1" target="mWNWnywwz809lk6X5woC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="366.25" y="47" />
+              <mxPoint x="312.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mWNWnywwz809lk6X5woC-11" value="Expiration Date" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="mWNWnywwz809lk6X5woC-2" target="mWNWnywwz809lk6X5woC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="281.25" y="182" />
+              <mxPoint x="314.0625" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mWNWnywwz809lk6X5woC-12" value="Expiration Date" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="mWNWnywwz809lk6X5woC-3" target="mWNWnywwz809lk6X5woC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="314.0625" y="317" />
+              <mxPoint x="314.0625" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mWNWnywwz809lk6X5woC-13" value="Financial Contact Info, Item ID" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="mWNWnywwz809lk6X5woC-5" target="mWNWnywwz809lk6X5woC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="92.5" y="47" />
+              <mxPoint x="92.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mWNWnywwz809lk6X5woC-14" value="Storage Usage, Financial Contact Info" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="mWNWnywwz809lk6X5woC-6" target="mWNWnywwz809lk6X5woC-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="92.5" y="182" />
+              <mxPoint x="92.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mWNWnywwz809lk6X5woC-15" value="Item ID, Destination Collection ID" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="mWNWnywwz809lk6X5woC-1" target="mWNWnywwz809lk6X5woC-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="423.75" y="47" />
+              <mxPoint x="477.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mWNWnywwz809lk6X5woC-16" value="Item Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="mWNWnywwz809lk6X5woC-2" target="mWNWnywwz809lk6X5woC-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="343.75" y="182" />
+              <mxPoint x="456.25" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mWNWnywwz809lk6X5woC-17" value="Item Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="mWNWnywwz809lk6X5woC-8" target="mWNWnywwz809lk6X5woC-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="477.5" y="182" />
+              <mxPoint x="493.75" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

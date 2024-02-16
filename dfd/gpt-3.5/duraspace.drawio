@@ -1,0 +1,158 @@
+<mxfile host="Electron" modified="2024-02-04T10:54:05.385Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="nUTQUwU-ood3sGcXWhQa" version="23.0.2" type="device">
+  <diagram name="Page-1" id="tnQLoFP8aDKUqDtVHepr">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="User" type="externalEntity" source="" flow="" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="5" width="55" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="DAMS" type="externalEntity" source="" flow="" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="65" width="65" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Library Unit" type="externalEntity" source="" flow="" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-3">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="15" y="192.5" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Contact Repositories" type="process" source="1,2" flow="Contact Request" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="165" y="32.5" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="DAMS Manager" type="externalEntity" source="" flow="" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-5">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="290" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List Collections and Objects" type="process" source="3" flow="Collection and Object Information" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="215" y="160" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List Formal Collections" type="process" source="5" flow="Formal Collection Information" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="230" y="290" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Browse by Collections" type="process" source="3,5" flow="Collection and Object Information" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="230" y="225" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Outcome Notification" type="process" source="5" flow="Event Outcome" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="235" y="355" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Collection and Object Information" type="dataStore" source="6,8" flow="Collection and Object Data" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="490" y="192.5" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Formal Collection Information" type="dataStore" source="7" flow="Formal Collection Data" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-11">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="500" y="257.5" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Event Outcome" type="dataStore" source="9" flow="Outcome Data" placeholders="1" id="R8cBZXcnOh3BRUj-AXlV-12">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="535" y="355" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-13" value="Contact Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-1" target="R8cBZXcnOh3BRUj-AXlV-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="77" y="17.5" />
+              <mxPoint x="153" y="43.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-14" value="Contact Request" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-2" target="R8cBZXcnOh3BRUj-AXlV-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="77" y="82.5" />
+              <mxPoint x="153" y="56.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-15" value="Collection and Object Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-3" target="R8cBZXcnOh3BRUj-AXlV-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="203.75" />
+              <mxPoint x="203" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-16" value="Formal Collection Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-5" target="R8cBZXcnOh3BRUj-AXlV-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129" y="307.5" />
+              <mxPoint x="203" y="307.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-17" value="Collection and Object Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-3" target="R8cBZXcnOh3BRUj-AXlV-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="216.25" />
+              <mxPoint x="203" y="236.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-18" value="Collection and Object Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-5" target="R8cBZXcnOh3BRUj-AXlV-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="299.1666666666667" />
+              <mxPoint x="203" y="248.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-19" value="Event Outcome" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-5" target="R8cBZXcnOh3BRUj-AXlV-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="315.8333333333333" />
+              <mxPoint x="203" y="372.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-20" value="Collection and Object Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-6" target="R8cBZXcnOh3BRUj-AXlV-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="177.5" />
+              <mxPoint x="478" y="203.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-21" value="Collection and Object Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-8" target="R8cBZXcnOh3BRUj-AXlV-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="242.5" />
+              <mxPoint x="478" y="216.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-22" value="Formal Collection Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-7" target="R8cBZXcnOh3BRUj-AXlV-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="307.5" />
+              <mxPoint x="478" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8cBZXcnOh3BRUj-AXlV-23" value="Outcome Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R8cBZXcnOh3BRUj-AXlV-9" target="R8cBZXcnOh3BRUj-AXlV-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="372.5" />
+              <mxPoint x="478" y="372.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

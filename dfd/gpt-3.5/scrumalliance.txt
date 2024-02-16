@@ -1,0 +1,31 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Site Member","externalEntity",,""
+2,"Practitioner","externalEntity",,""
+3,"Trainer","externalEntity",,""
+4,"Profile Information","dataStore",,""
+5,"Upcoming Classes","dataStore",,""
+6,"Describe Myself","process","1","Profile Information"
+7,"Include Additional Details (Practitioner)","process","2","Profile Information"
+8,"Include Additional Details (Trainer)","process","3","Profile Information"
+9,"Mark Profile as Private","process","1","Profile Information"
+10,"List Upcoming Classes","process","3","Upcoming Classes"
+11,"Link to Detailed Class Page","process","3","Upcoming Classes"
+12,"View Profile","process","1,2,3","Profile Information"
+13,"View Upcoming Classes","process","1,2,3","Upcoming Classes"

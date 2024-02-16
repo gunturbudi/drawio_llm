@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ project }} Evaluation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .method-section, .criteria-container {
+            margin-bottom: 30px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .criteria-label, .method-title {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .method-title {
+            font-size: 16px;
+        }
+        .criteria-label {
+            font-size: 18px;
+        }
+        .star-rating {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            cursor: pointer;
+        }
+        .star-rating input[type="radio"] {
+            display: none;
+        }
+        .star-rating label {
+            font-size: 24px;
+            color: #ddd;
+        }
+        .star-rating label:hover, .star-rating label:hover ~ label, .star-rating input[type="radio"]:checked ~ label {
+            color: #f0ad4e;
+        }
+        .rating-value {
+            margin-left: 10px;
+            font-size: 16px;
+            color: #666;
+            font-weight: bold;
+        }
+        .img-fluid {
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        }
+        a.back-home {
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            margin-top: 20px;
+        }
+        img.project-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .user-stories ul {
+            padding-left: 0;
+            list-style: none;
+        }
+        .user-stories li {
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .section-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        p.description {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        /* Updated styles */
+        .method-section, .criteria-container {
+            /* Existing styles... */
+            cursor: pointer; /* 1. Cursor Style */
+            transition: background-color 0.3s ease; /* 3. Transition Effects */
+        }
+
+        .method-section:hover, .criteria-container:hover {
+            background-color: #e9ecef; /* 2. Hover Effects */
+        }
+
+        .collapsed::after {
+            content: '\25BC'; /* Downward arrow */
+            float: right;
+            transition: transform 0.3s ease; /* 3. Transition Effects */
+        }
+
+        .collapsed.collapsed::after {
+            transform: rotate(0deg); /* Rotate arrow back to original position */
+        }
+
+        .collapse.show {
+            display: block;
+        }
+
+        /* Updated styles */
+        .criteria-container {
+            /* Existing styles... */
+            margin-bottom: 20px; /* Add margin between criteria sections */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="/" class="back-home">Go Back Home</a>
+    <h1 class="section-title">{{ project }} Evaluation</h1>
+    <div class="row">
+        <div class="col-md-3"><img src="{{ depiction_img }}" alt="" class="project-image"></div>
+        <div class="col-md-9"><p class="description">{{ description }}</p></div>
+    </div>
+    
+    <div class="user-stories">
+        <h2 class="section-title">User Stories</h2>
+        <ul>
+            {% for story in user_stories %}
+            <li>{{ story }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <form action="{{ url_for('submit_evaluation') }}" method="POST">
+        <input type="hidden" name="project" value="{{ project }}">
+        <div class="row">
+            <div class="col-md-8">
+                {% for method, image in images.items() %}
+                <div class="method-section">
+                    <h3 class="collapsed" data-toggle="collapse" data-target="#collapseMethod{{ method }}">Method {{ method }}</h3>
+                    <div id="collapseMethod{{ method }}" class="collapse">
+                        {% if image %}
+                        <img src="{{ image }}" alt="DFD for {{ method }}" class="img-fluid mb-3">
+                        {% else %}
+                        <p>No image available for this method.</p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col-md-4">
+                    {% for criterion_name, criterion_id in criteria.items() %}
+                    <div class="criteria-container">
+                        <div class="criteria-rating">
+                        <label class="criteria-label collapsed" data-toggle="collapse" data-target="#collapseCriteria{{ criterion_id }}">{{ criterion_name }}:</label>
+                        <div id="collapseCriteria{{ criterion_id }}" class="collapse">
+                            {% for method, image in images.items() %}
+                            <div class="method-section">
+                                <h6 class="method-title">{{ method }}</h6>
+                                <div class="star-rating" data-rating-value-id="rating-value-{{ criterion_id }}" id="star-rating-{{ method }}-{{ criterion_id }}">
+                                    {% for i in range(5, 0, -1) %}
+                                    <input type="radio" id="star{{ i }}-{{ method }}-{{ criterion_id }}" name="scores_{{ method }}_{{ criterion_id }}" value="{{ i }}" {% if evaluations[criterion_name][method] == i %}checked{% endif %}>
+                                    <label for="star{{ i }}-{{ method }}-{{ criterion_id }}">★</label>
+                                    {% endfor %}
+                                </div>
+                                <span id="rating-value-{{ method }}-{{ criterion_id }}" class="rating-value">{{ evaluations[criterion_name][method]|default('0', true) }}</span>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit Evaluation</button>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Function to update rating display based on checked radio buttons
+        function updateRatingValue(method, criterionId, value) {
+            $('#rating-value-' + method + '-' + criterionId).text(value);
+        }
+
+        // Update rating displays on hover
+        $('.star-rating label').mouseenter(function() {
+            const starRatingIdParts = $(this).parent().attr('id').split('-');
+            const method = starRatingIdParts[2]; // Assuming the structure is 'star-rating-method-criterionId'
+            const criterionId = starRatingIdParts.slice(3).join('-'); // Join back in case of '-' in criterionId
+            const value = $(this).data('value');
+            updateRatingValue(method, criterionId, value);
+        });
+
+        $('.star-rating input[type="radio"]').change(function() {
+            const starRatingIdParts = $(this).parent().attr('id').split('-');
+            const method = starRatingIdParts[2];
+            const criterionId = starRatingIdParts.slice(3).join('-'); // Adjust accordingly
+            const value = $(this).val();
+            updateRatingValue(method, criterionId, value);
+        });
+
+        $('[data-toggle="collapse-custom"]').click(function() {
+            const target = $(this).data('target');
+            $(target).toggleClass('show');
+        });
+    });
+</script>
+</body>
+</html>

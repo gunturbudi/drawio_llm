@@ -1,0 +1,27 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Stakeholders","externalEntity"
+2,"User Research Plan","process","1","Stakeholders"
+3,"In-person Interviews","process","2","User Research Plan"
+4,"Finalized OLPA Task Script","dataStore","3","In-person Interviews"
+5,"Research Participants","externalEntity","4","Finalized OLPA Task Script"
+6,"Prototype Appearance Check","process","5","Research Participants"
+7,"User Interview Completion","process","6","Prototype Appearance Check"
+8,"WIG Prototype","dataStore","7","User Interview Completion"
+9,"Second Task Script Finalization","process","8","WIG Prototype"

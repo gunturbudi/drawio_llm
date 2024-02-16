@@ -1,0 +1,142 @@
+<mxfile host="Electron" modified="2024-02-04T20:45:38.264Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="v9wZQTY744-FyjjTD2Hy" version="23.0.2" type="device">
+  <diagram name="Page-1" id="0JQxGP5OZmMJUcr1clCt">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Publisher" type="externalEntity" source="" flow="" placeholders="1" id="GgSGtnp74AwzcZVbENG4-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="127.5" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Publish Dataset" type="process" source="1" flow="Dataset" placeholders="1" id="GgSGtnp74AwzcZVbENG4-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="175" y="127.5" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Private Dataset" type="dataStore" source="2" flow="Dataset" placeholders="1" id="GgSGtnp74AwzcZVbENG4-3">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="390" y="95" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Research Team" type="externalEntity" source="" flow="" placeholders="1" id="GgSGtnp74AwzcZVbENG4-4">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Collaborate" type="process" source="3" flow="Research Team" placeholders="1" id="GgSGtnp74AwzcZVbENG4-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="620" y="95" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Public Datasets" type="dataStore" source="" flow="" placeholders="1" id="GgSGtnp74AwzcZVbENG4-6">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry y="255" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Browse Datasets" type="process" source="6" flow="Consumer" placeholders="1" id="GgSGtnp74AwzcZVbENG4-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="215" y="255" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Download Dataset" type="process" source="7" flow="Dataset" placeholders="1" id="GgSGtnp74AwzcZVbENG4-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="430" y="255" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Update Dataset" type="process" source="2" flow="Dataset" placeholders="1" id="GgSGtnp74AwzcZVbENG4-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="390" y="160" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Validate Dataset" type="process" source="8" flow="Dataset" placeholders="1" id="GgSGtnp74AwzcZVbENG4-10">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="655" y="255" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Version Dataset" type="process" source="9" flow="Dataset" placeholders="1" id="GgSGtnp74AwzcZVbENG4-11">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="605" y="160" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Maintain Versions" type="process" source="10" flow="Dataset" placeholders="1" id="GgSGtnp74AwzcZVbENG4-12">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="870" y="255" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="GgSGtnp74AwzcZVbENG4-13" value="Dataset" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="GgSGtnp74AwzcZVbENG4-1" target="GgSGtnp74AwzcZVbENG4-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="145" />
+              <mxPoint x="163" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgSGtnp74AwzcZVbENG4-14" value="Dataset" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="GgSGtnp74AwzcZVbENG4-2" target="GgSGtnp74AwzcZVbENG4-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="138.75" />
+              <mxPoint x="378" y="112.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgSGtnp74AwzcZVbENG4-15" value="Research Team" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="GgSGtnp74AwzcZVbENG4-3" target="GgSGtnp74AwzcZVbENG4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517" y="112.5" />
+              <mxPoint x="593" y="112.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgSGtnp74AwzcZVbENG4-16" value="Consumer" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="GgSGtnp74AwzcZVbENG4-6" target="GgSGtnp74AwzcZVbENG4-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="272.5" />
+              <mxPoint x="203" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgSGtnp74AwzcZVbENG4-17" value="Dataset" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="GgSGtnp74AwzcZVbENG4-7" target="GgSGtnp74AwzcZVbENG4-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="342" y="272.5" />
+              <mxPoint x="418" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgSGtnp74AwzcZVbENG4-18" value="Dataset" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="GgSGtnp74AwzcZVbENG4-2" target="GgSGtnp74AwzcZVbENG4-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="151.25" />
+              <mxPoint x="378" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgSGtnp74AwzcZVbENG4-19" value="Dataset" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="GgSGtnp74AwzcZVbENG4-8" target="GgSGtnp74AwzcZVbENG4-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="567" y="272.5" />
+              <mxPoint x="643" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgSGtnp74AwzcZVbENG4-20" value="Dataset" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="GgSGtnp74AwzcZVbENG4-9" target="GgSGtnp74AwzcZVbENG4-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517" y="177.5" />
+              <mxPoint x="593" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgSGtnp74AwzcZVbENG4-21" value="Dataset" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="GgSGtnp74AwzcZVbENG4-10" target="GgSGtnp74AwzcZVbENG4-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="782" y="272.5" />
+              <mxPoint x="858" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

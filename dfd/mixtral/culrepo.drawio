@@ -1,0 +1,170 @@
+<mxfile host="Electron" modified="2024-02-04T16:37:39.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="F3HilXRKxW6mHJ_CD4OH" version="23.0.2" type="device">
+  <diagram name="Page-1" id="tuZKQti5esdk4by3s7Jd">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Faculty Member" type="externalEntity" source="" flow="" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="226.25" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Access Collection" type="process" source="1" flow="Repository Collection" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="114.58333333333334" y="135" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Repository Collection" type="dataStore" source="2" flow="Repository Contents, Linked Item" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-3">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry y="270" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Direct Students to Item" type="process" source="1" flow="Linked Item" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="205" y="270" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Upload Data" type="process" source="1" flow="Data, Publication" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="338.75" y="135" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Associate Data with Publication" type="process" source="5" flow="Publication Data" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="390" y="270" width="195" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Repository" type="dataStore" source="2,4,6" flow="Repository Contents" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-7">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="240.625" y="405" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="New Reports/Datasets Notification" type="process" source="7" flow="Upcoming Reports/Datasets" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="175.625" y="540" width="215" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Patron" type="externalEntity" source="" flow="" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-9">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="715" width="65" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Select/Deselect Reports/Datasets" type="process" source="9" flow="Selected Reports/Datasets" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-10">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="645" y="135" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Email Notifications" type="process" source="10" flow="New Versions of Selected Reports/Datasets" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-11">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="685" y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Email List" type="dataStore" source="11" flow="Patron Email Addresses" placeholders="1" id="5zdDI34Wb6QTdJxTzabR-12">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="705" y="405" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-13" value="Repository Collection" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-1" target="5zdDI34Wb6QTdJxTzabR-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="248.75" y="47" />
+              <mxPoint x="177.08333333333334" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-14" value="Repository Contents, Linked Item" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-2" target="5zdDI34Wb6QTdJxTzabR-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148.33333333333334" y="182" />
+              <mxPoint x="72.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-15" value="Linked Item" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-1" target="5zdDI34Wb6QTdJxTzabR-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="283.75" y="49" />
+              <mxPoint x="283.75" y="85" />
+              <mxPoint x="283.75" y="220" />
+              <mxPoint x="282.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-16" value="Data, Publication" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-1" target="5zdDI34Wb6QTdJxTzabR-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="318.75" y="47" />
+              <mxPoint x="386.25" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-17" value="Publication Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-5" target="5zdDI34Wb6QTdJxTzabR-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="386.25" y="182" />
+              <mxPoint x="487.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-18" value="Repository Contents" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-2" target="5zdDI34Wb6QTdJxTzabR-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205.83333333333334" y="182" />
+              <mxPoint x="175" y="220" />
+              <mxPoint x="175" y="355" />
+              <mxPoint x="258.125" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-19" value="Repository Contents" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-4" target="5zdDI34Wb6QTdJxTzabR-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282.5" y="317" />
+              <mxPoint x="283.125" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-20" value="Repository Contents" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-6" target="5zdDI34Wb6QTdJxTzabR-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="487.5" y="317" />
+              <mxPoint x="308.125" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-21" value="Upcoming Reports/Datasets" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-7" target="5zdDI34Wb6QTdJxTzabR-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="283.125" y="452" />
+              <mxPoint x="283.125" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-22" value="Selected Reports/Datasets" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-9" target="5zdDI34Wb6QTdJxTzabR-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="747.5" y="47" />
+              <mxPoint x="747.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-23" value="New Versions of Selected Reports/Datasets" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-10" target="5zdDI34Wb6QTdJxTzabR-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="747.5" y="182" />
+              <mxPoint x="747.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zdDI34Wb6QTdJxTzabR-24" value="Patron Email Addresses" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="5zdDI34Wb6QTdJxTzabR-11" target="5zdDI34Wb6QTdJxTzabR-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="747.5" y="317" />
+              <mxPoint x="747.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

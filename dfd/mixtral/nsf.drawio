@@ -1,0 +1,128 @@
+<mxfile host="Electron" modified="2024-02-04T16:00:23.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="86DrQkC9pSOvlYw89OCD" version="23.0.2" type="device">
+  <diagram name="Page-1" id="BC2litSeOuMUhNzoh867">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Stakeholder" type="externalEntity" source="" flow="" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="45" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View User Research Results" type="process" source="1" flow="User Research Data" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Researcher" type="externalEntity" source="" flow="" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-3">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="331.25" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Test User Research Plan" type="process" source="3" flow="User Research Plan" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="250" y="135" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Finalized OLPA Task Script" type="dataStore" source="4" flow="" undefined="" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-5">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="245" y="270" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Internal User Testing" type="process" source="3,5" flow="User Research Data" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="322.309670781893" y="405" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Research Participant" type="externalEntity" source="" flow="" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-7">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="560.869341563786" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ensure Prototype Appearance" type="process" source="7" flow="WIG Prototype" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="535.869341563786" y="135" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Finalize Second Task Script" type="process" source="6" flow="WIG Prototype" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="300.86934156378595" y="540" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="WIG Prototype" type="dataStore" source="9" flow="" undefined="" placeholders="1" id="wLnoPj5Gat3CzxlfLZmS-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="335.86934156378595" y="675" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wLnoPj5Gat3CzxlfLZmS-11" value="User Research Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="wLnoPj5Gat3CzxlfLZmS-1" target="wLnoPj5Gat3CzxlfLZmS-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="92.5" y="47" />
+              <mxPoint x="92.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLnoPj5Gat3CzxlfLZmS-12" value="User Research Plan" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="wLnoPj5Gat3CzxlfLZmS-3" target="wLnoPj5Gat3CzxlfLZmS-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362.5" y="47" />
+              <mxPoint x="332.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLnoPj5Gat3CzxlfLZmS-13" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="wLnoPj5Gat3CzxlfLZmS-4" target="wLnoPj5Gat3CzxlfLZmS-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="332.5" y="182" />
+              <mxPoint x="332.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLnoPj5Gat3CzxlfLZmS-14" value="User Research Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="wLnoPj5Gat3CzxlfLZmS-3" target="wLnoPj5Gat3CzxlfLZmS-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="47" />
+              <mxPoint x="450" y="85" />
+              <mxPoint x="450" y="220" />
+              <mxPoint x="450" y="220" />
+              <mxPoint x="450" y="355" />
+              <mxPoint x="421.059670781893" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLnoPj5Gat3CzxlfLZmS-15" value="User Research Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="wLnoPj5Gat3CzxlfLZmS-5" target="wLnoPj5Gat3CzxlfLZmS-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="332.5" y="317" />
+              <mxPoint x="358.559670781893" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLnoPj5Gat3CzxlfLZmS-16" value="WIG Prototype" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="wLnoPj5Gat3CzxlfLZmS-7" target="wLnoPj5Gat3CzxlfLZmS-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="628.369341563786" y="47" />
+              <mxPoint x="628.369341563786" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLnoPj5Gat3CzxlfLZmS-17" value="WIG Prototype" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="wLnoPj5Gat3CzxlfLZmS-6" target="wLnoPj5Gat3CzxlfLZmS-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="389.809670781893" y="452" />
+              <mxPoint x="388.36934156378595" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLnoPj5Gat3CzxlfLZmS-18" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="wLnoPj5Gat3CzxlfLZmS-9" target="wLnoPj5Gat3CzxlfLZmS-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="388.36934156378595" y="587" />
+              <mxPoint x="388.36934156378595" y="663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

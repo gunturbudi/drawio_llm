@@ -1,0 +1,31 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Public User","externalEntity",,"Search Request"
+2,"Applicant","externalEntity",,"Pre-Application Request,Application Submission"
+3,"Staff member","externalEntity",,"Completeness Review,Formal Response"
+4,"Search for Information","process","1","Information Search"
+5,"Request Pre-Application Assistance","process","2","Pre-Application Assistance Request"
+6,"Submit Application","process","2","Application Submission"
+7,"Perform Completeness Review","process","3","Completeness Review"
+8,"Send Formal Response to Applicant","process","3","Formal Response"
+9,"County Services Information","dataStore","4","County Information"
+10,"Pre-Application Requests","dataStore","5","Pre-Application Requests"
+11,"Applications","dataStore","6","Application Data"
+12,"Complete Applications","dataStore","7","Complete Applications Data"
+13,"Communication Records","dataStore","8","Communication Records"

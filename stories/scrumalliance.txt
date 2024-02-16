@@ -1,0 +1,5 @@
+As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.
+As a Practitioner, I want to include additional details about me in my profile page, so that I can showcase my experience.
+As a Trainer, I want to include additional details in my profile page about me, so that others can learn about me and decide if I am the right trainer for them.
+As a site member, I want to mark my profile as private in which case only my name will appear, so that no one can learn things about me I don't want shared.
+As a trainer, I want to list my upcoming classes in my profile and include a link to a detailed page about each, so that prospective attendees can find my courses.

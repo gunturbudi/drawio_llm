@@ -1,0 +1,137 @@
+<mxfile host="Electron" modified="2024-02-04T20:49:28.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="zKpXAVlivKfTH1_RUnzZ" version="23.0.2" type="device">
+  <diagram name="Page-1" id="gBfgoGfkIeVmjoVSb8Eh">
+    <mxGraphModel dx="1621" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Camper&#39;s Parents" type="externalEntity" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-37">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="95" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Message Counselors" type="process" source="1" flow="Concerns, Progress, Safety" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-38">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Counselors" type="externalEntity" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-39">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="475" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Message Counselors" type="dataStore" source="2" flow="Message Content, Timestamps" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-40">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry y="270" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Share Camp Photos" type="process" source="1" flow="Photos, Camper ID" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-41">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="175" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Camp Photo Library" type="dataStore" source="5" flow="Photos, Camper ID" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-42">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="175" y="270" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Bi-Weekly Feedback" type="process" source="3" flow="Camper Behavior, Performance" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-43">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="370" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Parent&#39;s Emails" type="dataStore" source="7" flow="Email Addresses" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-44">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="375" y="270" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Notify Parents" type="process" source="8" flow="Email Content, Timestamps" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-45">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="380" y="405" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Parent&#39;s Feedback" type="process" source="3" flow="Concerns, Suggestions" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-46">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="535" y="135" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Camp Improvements" type="dataStore" source="10" flow="Feedback, Resolutions" placeholders="1" id="R0sU-8ZUQ_T-zIc6ufO7-47">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="530" y="270" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R0sU-8ZUQ_T-zIc6ufO7-48" value="Concerns, Progress, Safety" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R0sU-8ZUQ_T-zIc6ufO7-37" target="R0sU-8ZUQ_T-zIc6ufO7-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="128.75" y="47" />
+              <mxPoint x="72.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0sU-8ZUQ_T-zIc6ufO7-49" value="Message Content, Timestamps" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R0sU-8ZUQ_T-zIc6ufO7-38" target="R0sU-8ZUQ_T-zIc6ufO7-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="72.5" y="182" />
+              <mxPoint x="72.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0sU-8ZUQ_T-zIc6ufO7-50" value="Photos, Camper ID" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R0sU-8ZUQ_T-zIc6ufO7-37" target="R0sU-8ZUQ_T-zIc6ufO7-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="186.25" y="47" />
+              <mxPoint x="242.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0sU-8ZUQ_T-zIc6ufO7-51" value="Photos, Camper ID" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R0sU-8ZUQ_T-zIc6ufO7-41" target="R0sU-8ZUQ_T-zIc6ufO7-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="242.5" y="182" />
+              <mxPoint x="242.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0sU-8ZUQ_T-zIc6ufO7-52" value="Camper Behavior, Performance" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R0sU-8ZUQ_T-zIc6ufO7-39" target="R0sU-8ZUQ_T-zIc6ufO7-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="498.75" y="47" />
+              <mxPoint x="437.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0sU-8ZUQ_T-zIc6ufO7-53" value="Email Addresses" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R0sU-8ZUQ_T-zIc6ufO7-43" target="R0sU-8ZUQ_T-zIc6ufO7-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="437.5" y="182" />
+              <mxPoint x="432.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0sU-8ZUQ_T-zIc6ufO7-54" value="Email Content, Timestamps" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R0sU-8ZUQ_T-zIc6ufO7-44" target="R0sU-8ZUQ_T-zIc6ufO7-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="432.5" y="317" />
+              <mxPoint x="432.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0sU-8ZUQ_T-zIc6ufO7-55" value="Concerns, Suggestions" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R0sU-8ZUQ_T-zIc6ufO7-39" target="R0sU-8ZUQ_T-zIc6ufO7-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="536.25" y="47" />
+              <mxPoint x="597.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0sU-8ZUQ_T-zIc6ufO7-56" value="Feedback, Resolutions" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="R0sU-8ZUQ_T-zIc6ufO7-46" target="R0sU-8ZUQ_T-zIc6ufO7-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="597.5" y="182" />
+              <mxPoint x="597.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

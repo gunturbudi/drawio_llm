@@ -1,0 +1,30 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Site Member","externalEntity",,""
+2,"Describe Profile","process","1","Profile Information"
+3,"Semi-Structured Description","dataStore","2","Profile Information"
+4,"Additional Details","process","1","Profile Information"
+5,"Experience","dataStore","4","Profile Information"
+6,"Trainer Details","dataStore","4","Profile Information"
+7,"Private Profile","process","1","Profile Visibility"
+8,"Name","dataStore","7","Profile Visibility"
+9,"Upcoming Classes","process","1","10"
+10,"Class List","dataStore","9","Class Information"
+11,"Class Details","process","10","12"
+12,"Class Page Link","dataStore","11","Class Information"

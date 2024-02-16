@@ -1,0 +1,34 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Faculty Member","externalEntity",,"Access Repository Items"
+2,"Cornell Faculty Member","externalEntity",,"Manage Data and Publications"
+3,"Patron","externalEntity",,"Notification Preferences,Access Report/Dataset Schedule"
+4,"Access Repository Items","process","1","Repository Items"
+5,"Manage Data and Publications","process","2","Publication Data"
+6,"Notification Preferences","process","3","Email Preferences"
+7,"Access Report/Dataset Schedule","process","3","Report/Dataset Schedule"
+8,"Repository","dataStore","4","Repository Items"
+9,"Publication Data","dataStore","5","Data Upload,Publication Association"
+10,"Email Preferences","dataStore","6","Email Notification Preferences"
+11,"Report/Dataset Schedule","dataStore","7","Report/Dataset Timing"
+12,"Repository Items","dataFlow","1,8","Access Repository Items"
+13,"Data Upload","dataFlow","2,9","Manage Data and Publications"
+14,"Publication Association","dataFlow","2,9","Manage Data and Publications"
+15,"Email Notification Preferences","dataFlow","3,10","Notification Preferences"
+16,"Report/Dataset Timing","dataFlow","3,11","Access Report/Dataset Schedule"

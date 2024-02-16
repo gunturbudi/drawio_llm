@@ -1,0 +1,5 @@
+As a anonymoususer, I want to view a list of sponsors, so that I can thank all the awesome sponsors.
+As a anonymoususer, I want to view a list of user profiles, so that I know who is attending the conference.
+As a trainingcoordinator, I want to email all the trainers at once from the website for info and updates, so that it is easier to use.
+As an attendee, I want to have a very clear map where the buildings and rooms are, so that I can make it to class on time.
+As a trainer, I want to edit my training node myself, so that the training coordinators don't have to and links to slides.

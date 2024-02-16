@@ -1,0 +1,119 @@
+<mxfile host="Electron" modified="2024-02-04T11:35:05.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="be58j5_aPMO74HFItETE" version="23.0.2" type="device">
+  <diagram name="Page-1" id="bd9Jfcvr3BEI2M_qItXo">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="User" type="externalEntity" source="" flow="" placeholders="1" id="Dcnt_f9boPzJuf8lAOcI-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="327.5" width="140" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Admin" type="externalEntity" source="" flow="" placeholders="1" id="Dcnt_f9boPzJuf8lAOcI-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="925" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Video Segments" type="dataStore" source="1,2" flow="Thumbnail Sequences, Video Item Info, News Segments, Content Recommendations" placeholders="1" id="Dcnt_f9boPzJuf8lAOcI-3">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="760" y="135" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Thumbnail Sequences" type="process" source="1" flow="View Thumbnail Sequences of Video Segments" placeholders="1" id="Dcnt_f9boPzJuf8lAOcI-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Video Item Info" type="process" source="1" flow="Get Info about Similar Video Items and Segments" placeholders="1" id="Dcnt_f9boPzJuf8lAOcI-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="175" y="135" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Annotate Segments" type="process" source="2" flow="Annotate News Video Segments and Extract Topics" placeholders="1" id="Dcnt_f9boPzJuf8lAOcI-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="905" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Content Recommendations" type="process" source="1" flow="Receive Content Recommendations from Similar Profiles" placeholders="1" id="Dcnt_f9boPzJuf8lAOcI-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="310" y="135" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="News Events" type="dataStore" source="2" flow="News Events in My Area" placeholders="1" id="Dcnt_f9boPzJuf8lAOcI-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="1070" y="135" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Recommendations Based on News" type="process" source="1" flow="Receive Content Recommendations Based on Most Relevant News Events in My Area" placeholders="1" id="Dcnt_f9boPzJuf8lAOcI-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="515" y="135" width="215" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Dcnt_f9boPzJuf8lAOcI-10" value="Thumbnail Sequences, Video Item Info, News Segments, Content Recommendations" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="Dcnt_f9boPzJuf8lAOcI-1" target="Dcnt_f9boPzJuf8lAOcI-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="449.5" y="47" />
+              <mxPoint x="791.25" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dcnt_f9boPzJuf8lAOcI-11" value="Thumbnail Sequences, Video Item Info, News Segments, Content Recommendations" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="Dcnt_f9boPzJuf8lAOcI-2" target="Dcnt_f9boPzJuf8lAOcI-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="944.1666666666666" y="47" />
+              <mxPoint x="843.75" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dcnt_f9boPzJuf8lAOcI-12" value="View Thumbnail Sequences of Video Segments" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="Dcnt_f9boPzJuf8lAOcI-1" target="Dcnt_f9boPzJuf8lAOcI-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345.5" y="47" />
+              <mxPoint x="72.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dcnt_f9boPzJuf8lAOcI-13" value="Get Info about Similar Video Items and Segments" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="Dcnt_f9boPzJuf8lAOcI-1" target="Dcnt_f9boPzJuf8lAOcI-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="371.5" y="49" />
+              <mxPoint x="227.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dcnt_f9boPzJuf8lAOcI-14" value="Annotate News Video Segments and Extract Topics" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="Dcnt_f9boPzJuf8lAOcI-2" target="Dcnt_f9boPzJuf8lAOcI-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="972.5" y="49" />
+              <mxPoint x="972.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dcnt_f9boPzJuf8lAOcI-15" value="Receive Content Recommendations from Similar Profiles" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="Dcnt_f9boPzJuf8lAOcI-1" target="Dcnt_f9boPzJuf8lAOcI-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397.5" y="51" />
+              <mxPoint x="397.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dcnt_f9boPzJuf8lAOcI-16" value="News Events in My Area" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="Dcnt_f9boPzJuf8lAOcI-2" target="Dcnt_f9boPzJuf8lAOcI-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000.8333333333334" y="47" />
+              <mxPoint x="1117.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dcnt_f9boPzJuf8lAOcI-17" value="Receive Content Recommendations Based on Most Relevant News Events in My Area" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="Dcnt_f9boPzJuf8lAOcI-1" target="Dcnt_f9boPzJuf8lAOcI-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="423.5" y="49" />
+              <mxPoint x="622.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

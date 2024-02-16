@@ -1,0 +1,5 @@
+As a Public User, I want to Search for Information, so that I can obtain publicly available information concerning properties, County services, processes, and other general information.
+As an Applicant, I want to Request Pre-Application Assistance, so that I can receive a response to a request for a meeting or information that is a result of the preapplication assistance.
+As an Applicant, I want to Submit Application, so that I can provide my information, plans and/or documents to initiate a transaction with the County.
+As a Staff member, I want to Perform a Completeness Review, so that I can validate when an application is complete and eligible for further technical review.
+As a Staff member, I want to Send a Formal Response to Applicant, so that I can satisfy communication and records responsibilities.

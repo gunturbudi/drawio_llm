@@ -1,0 +1,176 @@
+<mxfile host="Electron" modified="2024-02-04T10:45:29.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="QkiP9TgrKl7ZeGzCDHhX" version="23.0.2" type="device">
+  <diagram name="Page-1" id="u5hZpA7LIIRSDvA42lg4">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Basic Data Entry User" type="externalEntity" source="" flow="" placeholders="1" id="ynC2dA4VShLEFaT-V95W-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="32.5" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Researcher" type="externalEntity" source="" flow="" placeholders="1" id="ynC2dA4VShLEFaT-V95W-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="160" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Archivist" type="externalEntity" source="" flow="" placeholders="1" id="ynC2dA4VShLEFaT-V95W-3">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="287.5" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ReadOnly User" type="externalEntity" source="" flow="" placeholders="1" id="ynC2dA4VShLEFaT-V95W-4">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="415" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Create Basic Archival Description" type="process" source="1" flow="Basic Archival Description Information" placeholders="1" id="ynC2dA4VShLEFaT-V95W-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="245" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Update Basic Archival Description" type="process" source="1" flow="Basic Archival Description Information" placeholders="1" id="ynC2dA4VShLEFaT-V95W-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="245" y="65" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View Finding Aid" type="process" source="2" flow="Finding Aid Information" placeholders="1" id="ynC2dA4VShLEFaT-V95W-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="195" y="160" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Import EAD Files (Archon)" type="process" source="3" flow="EAD Files" placeholders="1" id="ynC2dA4VShLEFaT-V95W-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="205" y="255" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Import EAD Files (Archivists&#39; Toolkit)" type="process" source="3" flow="EAD Files" placeholders="1" id="ynC2dA4VShLEFaT-V95W-9">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="175" y="320" width="225" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View Archival Descriptions" type="process" source="4" flow="Archival Descriptions" placeholders="1" id="ynC2dA4VShLEFaT-V95W-10">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="215" y="415" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Basic Archival Description Information" type="dataStore" source="5,6" flow="" placeholders="1" id="ynC2dA4VShLEFaT-V95W-11">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="550" y="32.5" width="225" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Finding Aid Information" type="dataStore" source="7" flow="" placeholders="1" id="ynC2dA4VShLEFaT-V95W-12">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="410" y="160" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="EAD Files" type="dataStore" source="8,9" flow="" placeholders="1" id="ynC2dA4VShLEFaT-V95W-13">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="500" y="287.5" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Archival Descriptions" type="dataStore" source="10" flow="" placeholders="1" id="ynC2dA4VShLEFaT-V95W-14">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="480" y="415" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-15" value="Basic Archival Description Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-1" target="ynC2dA4VShLEFaT-V95W-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="43.75" />
+              <mxPoint x="233" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-16" value="Basic Archival Description Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-1" target="ynC2dA4VShLEFaT-V95W-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="56.25" />
+              <mxPoint x="233" y="82.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-17" value="Finding Aid Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-2" target="ynC2dA4VShLEFaT-V95W-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="177.5" />
+              <mxPoint x="183" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-18" value="EAD Files" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-3" target="ynC2dA4VShLEFaT-V95W-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="298.75" />
+              <mxPoint x="163" y="272.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-19" value="EAD Files" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-3" target="ynC2dA4VShLEFaT-V95W-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="311.25" />
+              <mxPoint x="163" y="337.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-20" value="Archival Descriptions" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-4" target="ynC2dA4VShLEFaT-V95W-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="432.5" />
+              <mxPoint x="203" y="432.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-21" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-5" target="ynC2dA4VShLEFaT-V95W-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="17.5" />
+              <mxPoint x="538" y="43.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-22" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-6" target="ynC2dA4VShLEFaT-V95W-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="82.5" />
+              <mxPoint x="538" y="56.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-23" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-7" target="ynC2dA4VShLEFaT-V95W-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="177.5" />
+              <mxPoint x="398" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-24" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-8" target="ynC2dA4VShLEFaT-V95W-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="412" y="272.5" />
+              <mxPoint x="488" y="298.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-25" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-9" target="ynC2dA4VShLEFaT-V95W-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="412" y="337.5" />
+              <mxPoint x="488" y="311.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC2dA4VShLEFaT-V95W-26" value="" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ynC2dA4VShLEFaT-V95W-10" target="ynC2dA4VShLEFaT-V95W-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="392" y="432.5" />
+              <mxPoint x="468" y="432.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

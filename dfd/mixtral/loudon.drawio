@@ -1,0 +1,184 @@
+<mxfile host="Electron" modified="2024-02-04T14:59:08.792Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="YJxfq75Gb22LD1REMbMQ" version="23.0.2" type="device">
+  <diagram name="Page-1" id="6XHYgucfZBE_j39tCIYH">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Public User" type="externalEntity" source="" flow="" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="672.9629629629629" width="85" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Search for Information" type="process" source="1" flow="Requested Information" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="338.5925925925926" y="135" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Property Database" type="dataStore" source="2" flow="Requested Information" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-3">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="County Services Database" type="dataStore" source="2" flow="Requested Information" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-4">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="155" y="270" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Processes Database" type="dataStore" source="2" flow="Requested Information" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-5">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="360" y="270" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="General Information Database" type="dataStore" source="2" flow="Requested Information" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-6">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="525" y="270" width="185" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Pre-Application Assistance Request" type="process" source="1" flow="Assistance Required Information" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="607.9629629629629" y="135" width="215" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Staff Member" type="externalEntity" source="7" flow="Assistance Available Information" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-8">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="740" y="270" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Formal Meeting Schedule" type="dataStore" source="8" flow="Meeting Details" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="345" y="405" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Information Package" type="dataStore" source="8" flow="Shared Information" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="540" y="405" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Submission Form" type="process" source="1" flow="Application Details" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-11">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="855.9876543209876" y="135" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Applicant Profile" type="dataStore" source="11" flow="Applicant Information" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-12">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="875" y="270" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Plans &amp; Documents Archive" type="dataStore" source="11" flow="Attachments" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-13">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="1020" y="270" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Completeness Check" type="process" source="12, 13" flow="Review Status" placeholders="1" id="S7M1kBW_rS8Hvf-sX5hy-14">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="860" y="405" width="145" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-15" value="Requested Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-1" target="S7M1kBW_rS8Hvf-sX5hy-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690.4629629629629" y="47" />
+              <mxPoint x="411.0925925925926" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-16" value="Requested Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-2" target="S7M1kBW_rS8Hvf-sX5hy-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360.4675925925926" y="182" />
+              <mxPoint x="62.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-17" value="Requested Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-2" target="S7M1kBW_rS8Hvf-sX5hy-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394.2175925925926" y="184" />
+              <mxPoint x="242.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-18" value="Requested Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-2" target="S7M1kBW_rS8Hvf-sX5hy-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427.9675925925926" y="184" />
+              <mxPoint x="427.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-19" value="Requested Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-2" target="S7M1kBW_rS8Hvf-sX5hy-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="461.7175925925926" y="182" />
+              <mxPoint x="617.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-20" value="Assistance Required Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-1" target="S7M1kBW_rS8Hvf-sX5hy-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715.4629629629629" y="49" />
+              <mxPoint x="715.4629629629629" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-21" value="Assistance Available Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-7" target="S7M1kBW_rS8Hvf-sX5hy-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715.4629629629629" y="182" />
+              <mxPoint x="792.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-22" value="Meeting Details" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-8" target="S7M1kBW_rS8Hvf-sX5hy-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="768.75" y="317" />
+              <mxPoint x="427.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-23" value="Shared Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-8" target="S7M1kBW_rS8Hvf-sX5hy-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="816.25" y="317" />
+              <mxPoint x="607.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-24" value="Application Details" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-1" target="S7M1kBW_rS8Hvf-sX5hy-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740.4629629629629" y="47" />
+              <mxPoint x="918.4876543209876" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-25" value="Applicant Information" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-11" target="S7M1kBW_rS8Hvf-sX5hy-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="889.7376543209876" y="182" />
+              <mxPoint x="932.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-26" value="Attachments" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-11" target="S7M1kBW_rS8Hvf-sX5hy-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="947.2376543209876" y="182" />
+              <mxPoint x="1107.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7M1kBW_rS8Hvf-sX5hy-27" value="Review Status" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="S7M1kBW_rS8Hvf-sX5hy-12" target="S7M1kBW_rS8Hvf-sX5hy-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="932.5" y="317" />
+              <mxPoint x="932.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

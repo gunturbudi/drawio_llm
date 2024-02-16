@@ -1,0 +1,5 @@
+As a parent, I want to be able to message my child's counselors, so that I can voice my concerns, check on my child's progress, and feel reassured about my child's safety and well-being at camp.
+As a parent, I want to be able to share any photos the camp has taken of my child, so that I can keep memories of their experiences and share them with family and friends.
+As a camp administrator, I want to provide bi-weekly feedback to camper's parents, so that they can be aware of their child's behavior and performance at camp and feel involved in their child's camp experience.
+As a camp administrator, I want to be able to notify parents all at once, so that they can be informed of any upcoming events, changes, or important notices efficiently and effectively.
+As a camp administrator, I want to create an avenue so parents can submit feedback and general concerns, so that I can keep improving the services I provide and address any issues promptly.

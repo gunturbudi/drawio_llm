@@ -1,0 +1,119 @@
+<mxfile host="Electron" modified="2024-02-04T15:58:17.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="5bGYMxFwJwnX1hlqxMyO" version="23.0.2" type="device">
+  <diagram name="Page-1" id="YisX6Mausmjz8xfyg9W5">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Researcher" type="externalEntity" source="" flow="" placeholders="1" id="AyUFAJcLyHSMCoa9_1xC-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="250" width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Manage Experiment Data" type="process" source="1" flow="Experiment Data, Metadata" placeholders="1" id="AyUFAJcLyHSMCoa9_1xC-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Data Sets Library" type="dataStore" source="2" flow="Experiment Data" placeholders="1" id="AyUFAJcLyHSMCoa9_1xC-3">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="23.895018100738525" y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Share Post-Experiment Write-ups" type="process" source="1" flow="Post-Experiment Write-ups" placeholders="1" id="AyUFAJcLyHSMCoa9_1xC-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="195" y="135" width="205" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Data Lineage Log" type="dataStore" source="2" flow="Experiment Data" placeholders="1" id="AyUFAJcLyHSMCoa9_1xC-5">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="240" y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Classify Data Quality" type="process" source="3" flow="Experiment Data" placeholders="1" id="AyUFAJcLyHSMCoa9_1xC-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="20.842527151107788" y="405" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Hidden Bad Data" type="dataStore" source="6" flow="Experiment Data" placeholders="1" id="AyUFAJcLyHSMCoa9_1xC-7">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="30.842527151107788" y="540" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Provide Standard Metadata" type="process" source="1" flow="Metadata" placeholders="1" id="AyUFAJcLyHSMCoa9_1xC-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="430" y="135" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Shared Metadata" type="dataStore" source="8" flow="Metadata" placeholders="1" id="AyUFAJcLyHSMCoa9_1xC-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="455" y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AyUFAJcLyHSMCoa9_1xC-10" value="Experiment Data, Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="AyUFAJcLyHSMCoa9_1xC-1" target="AyUFAJcLyHSMCoa9_1xC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269.1666666666667" y="47" />
+              <mxPoint x="82.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyUFAJcLyHSMCoa9_1xC-11" value="Experiment Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="AyUFAJcLyHSMCoa9_1xC-2" target="AyUFAJcLyHSMCoa9_1xC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="43.75" y="182" />
+              <mxPoint x="86.39501810073853" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyUFAJcLyHSMCoa9_1xC-12" value="Post-Experiment Write-ups" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="AyUFAJcLyHSMCoa9_1xC-1" target="AyUFAJcLyHSMCoa9_1xC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297.5" y="49" />
+              <mxPoint x="297.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyUFAJcLyHSMCoa9_1xC-13" value="Experiment Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="AyUFAJcLyHSMCoa9_1xC-2" target="AyUFAJcLyHSMCoa9_1xC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="121.25" y="182" />
+              <mxPoint x="302.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyUFAJcLyHSMCoa9_1xC-14" value="Experiment Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="AyUFAJcLyHSMCoa9_1xC-3" target="AyUFAJcLyHSMCoa9_1xC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="86.39501810073853" y="317" />
+              <mxPoint x="88.34252715110779" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyUFAJcLyHSMCoa9_1xC-15" value="Experiment Data" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="AyUFAJcLyHSMCoa9_1xC-6" target="AyUFAJcLyHSMCoa9_1xC-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="88.34252715110779" y="452" />
+              <mxPoint x="88.34252715110779" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyUFAJcLyHSMCoa9_1xC-16" value="Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="AyUFAJcLyHSMCoa9_1xC-1" target="AyUFAJcLyHSMCoa9_1xC-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325.8333333333333" y="47" />
+              <mxPoint x="517.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyUFAJcLyHSMCoa9_1xC-17" value="Metadata" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="AyUFAJcLyHSMCoa9_1xC-8" target="AyUFAJcLyHSMCoa9_1xC-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517.5" y="182" />
+              <mxPoint x="517.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

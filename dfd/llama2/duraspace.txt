@@ -1,0 +1,32 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Library Unit Collections","externalEntity",,"
+2,"List Library Unit Collections","process","1","Library Unit Collections"
+3,"Formal Collections","dataStore","2","List Library Unit Collections"
+4,"Browse Formal Collections","process","3","Formal Collections"
+5,"Specified Collections","dataStore","4","Browse Formal Collections"
+6,"Search DAMS","process","5","Specified Collections"
+7,"Repository Contact","externalEntity",,"
+8,"Contact Repository","process","7","Repository Contact"
+9,"Event Outcome","dataStore","8","Contact Repository"
+10,"DAMS Manager","role",,"
+11,"List Collections for Browsing","process","10","Formal Collections"
+12,"List Objects in Collection","process","11","Specified Collections"
+13,"Delete Object","process","12","Search DAMS"
+14,"Update Event Outcome","process","13","Event Outcome"

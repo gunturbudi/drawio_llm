@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2024-02-04T11:25:52.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="JdSzlOmlkyE0Xgk3XaR5" version="23.0.2" type="device">
+  <diagram name="Page-1" id="bbDFegVx0GiPeamfTuGo">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Stakeholder" type="externalEntity" source="" flow="" placeholders="1" id="JbTXavKGsSA-3UhzznCn-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry width="95" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Researcher" type="externalEntity" source="" flow="" placeholders="1" id="JbTXavKGsSA-3UhzznCn-2">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="192.5" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Research Participant" type="externalEntity" source="" flow="" placeholders="1" id="JbTXavKGsSA-3UhzznCn-3">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="417.5" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Research Plan" type="process" source="2" flow="User Research Plan" placeholders="1" id="JbTXavKGsSA-3UhzznCn-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="230" y="95" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="OLPA Task Script" type="process" source="2" flow="OLPA Task Script" placeholders="1" id="JbTXavKGsSA-3UhzznCn-5">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="235" y="160" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Prototype" type="process" source="3" flow="Prototype" placeholders="1" id="JbTXavKGsSA-3UhzznCn-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="265" y="385" width="75" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="WIG Prototype" type="process" source="2" flow="WIG Prototype" placeholders="1" id="JbTXavKGsSA-3UhzznCn-7">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="245" y="225" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CMS" type="dataStore" source="1" flow="Results of User Research" placeholders="1" id="JbTXavKGsSA-3UhzznCn-8">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="195" width="55" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Interview Feedback" type="dataStore" source="2" flow="User Interview Feedback" placeholders="1" id="JbTXavKGsSA-3UhzznCn-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="215" y="290" width="165" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Prototype Feedback" type="dataStore" source="3" flow="Prototype Feedback" placeholders="1" id="JbTXavKGsSA-3UhzznCn-10">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="235" y="450" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JbTXavKGsSA-3UhzznCn-11" value="User Research Plan" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="JbTXavKGsSA-3UhzznCn-2" target="JbTXavKGsSA-3UhzznCn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="196.875" />
+              <mxPoint x="203" y="112.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbTXavKGsSA-3UhzznCn-12" value="OLPA Task Script" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="JbTXavKGsSA-3UhzznCn-2" target="JbTXavKGsSA-3UhzznCn-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129" y="205.625" />
+              <mxPoint x="203" y="177.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbTXavKGsSA-3UhzznCn-13" value="Prototype" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="JbTXavKGsSA-3UhzznCn-3" target="JbTXavKGsSA-3UhzznCn-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="428.75" />
+              <mxPoint x="223" y="402.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbTXavKGsSA-3UhzznCn-14" value="WIG Prototype" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="JbTXavKGsSA-3UhzznCn-2" target="JbTXavKGsSA-3UhzznCn-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129" y="214.375" />
+              <mxPoint x="203" y="242.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbTXavKGsSA-3UhzznCn-15" value="Results of User Research" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="JbTXavKGsSA-3UhzznCn-1" target="JbTXavKGsSA-3UhzznCn-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="17.5" />
+              <mxPoint x="183" y="17.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbTXavKGsSA-3UhzznCn-16" value="User Interview Feedback" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="JbTXavKGsSA-3UhzznCn-2" target="JbTXavKGsSA-3UhzznCn-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="223.125" />
+              <mxPoint x="203" y="307.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbTXavKGsSA-3UhzznCn-17" value="Prototype Feedback" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="JbTXavKGsSA-3UhzznCn-3" target="JbTXavKGsSA-3UhzznCn-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="441.25" />
+              <mxPoint x="223" y="467.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,168 @@
+<mxfile host="Electron" modified="2024-02-04T20:56:45.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Cv2QJAxj_d86j6xIM3a4" version="23.0.2" type="device">
+  <diagram name="Page-1" id="LNzvD0uFQostt_cRrB0U">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Library Unit Collections" type="externalEntity" source="" flow="" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-1">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="10" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List Library Unit Collections" type="process" source="1" flow="Library Unit Collections" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-2">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="135" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Formal Collections" type="dataStore" source="2" flow="List Library Unit Collections" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-3">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="25" y="270" width="125" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Browse Formal Collections" type="process" source="3" flow="Formal Collections" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-4">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry y="405" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Specified Collections" type="dataStore" source="4" flow="Browse Formal Collections" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-5">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="20" y="540" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Search DAMS" type="process" source="5" flow="Specified Collections" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-6">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="35" y="675" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Repository Contact" type="externalEntity" source="" flow="" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-7">
+          <mxCell style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="235" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Contact Repository" type="process" source="7" flow="Repository Contact" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-8">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="235" y="135" width="135" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Event Outcome" type="dataStore" source="8" flow="Contact Repository" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-9">
+          <mxCell style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+            <mxGeometry x="245" y="270" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="DAMS Manager" type="role" source="" flow="" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-10">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="460" width="115" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List Collections for Browsing" type="process" source="10" flow="Formal Collections" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-11">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="430" y="135" width="175" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="List Objects in Collection" type="process" source="11" flow="Specified Collections" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-12">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="440" y="270" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Delete Object" type="process" source="12" flow="Search DAMS" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-13">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="465" y="405" width="105" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Update Event Outcome" type="process" source="13" flow="Event Outcome" placeholders="1" id="ZRcTABzxMba2_AfQg9wj-14">
+          <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;" vertex="1" parent="1">
+            <mxGeometry x="440" y="540" width="155" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-15" value="Library Unit Collections" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-1" target="ZRcTABzxMba2_AfQg9wj-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.5" y="47" />
+              <mxPoint x="87.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-16" value="List Library Unit Collections" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-2" target="ZRcTABzxMba2_AfQg9wj-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.5" y="182" />
+              <mxPoint x="87.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-17" value="Formal Collections" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-3" target="ZRcTABzxMba2_AfQg9wj-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.5" y="317" />
+              <mxPoint x="87.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-18" value="Browse Formal Collections" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-4" target="ZRcTABzxMba2_AfQg9wj-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.5" y="452" />
+              <mxPoint x="87.5" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-19" value="Specified Collections" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-5" target="ZRcTABzxMba2_AfQg9wj-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.5" y="587" />
+              <mxPoint x="87.5" y="663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-20" value="Repository Contact" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-7" target="ZRcTABzxMba2_AfQg9wj-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302.5" y="47" />
+              <mxPoint x="302.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-21" value="Contact Repository" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-8" target="ZRcTABzxMba2_AfQg9wj-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302.5" y="182" />
+              <mxPoint x="302.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-22" value="Formal Collections" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-10" target="ZRcTABzxMba2_AfQg9wj-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517.5" y="47" />
+              <mxPoint x="517.5" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-23" value="Specified Collections" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-11" target="ZRcTABzxMba2_AfQg9wj-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517.5" y="182" />
+              <mxPoint x="517.5" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-24" value="Search DAMS" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-12" target="ZRcTABzxMba2_AfQg9wj-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517.5" y="317" />
+              <mxPoint x="517.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRcTABzxMba2_AfQg9wj-25" value="Event Outcome" style="endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;noEdgeStyle=1;" edge="1" parent="1" source="ZRcTABzxMba2_AfQg9wj-13" target="ZRcTABzxMba2_AfQg9wj-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517.5" y="452" />
+              <mxPoint x="517.5" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

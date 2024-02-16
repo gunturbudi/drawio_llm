@@ -1,0 +1,30 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"Parent","externalEntity",,""
+2,"Camp Administrator","externalEntity",,""
+3,"Message Child's Counselors","process","1","Parent Message"
+4,"Share Camp Photos","process","1","Camp Photo"
+5,"Provide Bi-weekly Feedback","process","2","Feedback"
+6,"Notify Parents","process","2","Notification"
+7,"Submit Feedback and Concerns","process","1,2","Feedback"
+8,"Counselor Messages","dataStore","3","Parent Message"
+9,"Camp Photos","dataStore","4","Camp Photo"
+10,"Feedback Records","dataStore","5","Feedback"
+11,"Notification Records","dataStore","6","Notification"
+12,"Feedback and Concerns","dataStore","7","Feedback"

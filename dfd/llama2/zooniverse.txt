@@ -1,0 +1,33 @@
+## Data Flow Diagram
+# label: CamperPlus DFD
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from":"source", "to":"id", "fromlabel":"flow", "invert":true, "style":"endArrow=blockThin;endFill=1;fontSize=11;orthogonal=1;"}
+# labels: {"label1" : "%flow%"}
+# labelname: labeltype
+# styles:{"process": "shape=ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","externalEntity": "shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontColor=#232F3E;","dataStore": "html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;"}
+# stylename: type
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: horizontal
+id,label,type,source,flow
+1,"User","externalEntity",,"
+2,"Video Segments","dataStore","1","User"
+3,"Thumbnail Sequences","process","2","Video Segments"
+4,"Similar Video Items","dataStore","3","Thumbnail Sequences"
+5,"Similar Video Segments","dataStore","3","Thumbnail Sequences"
+6,"Admin","externalEntity",,"
+7,"Annotate Video Segments","process","6","Video Segments"
+8,"Extract Topic","process","7","Annotated Video Segments"
+9,"Topic","dataStore","8","Extract Topic"
+10,"User Profile","dataStore","1","User"
+11,"Recommendations","process","10","User Profile"
+12,"Similar Profiles","dataStore","11","Recommendations"
+13,"Content Recommendations","process","12","Similar Profiles"
+14,"Local News Events","dataStore","13","Content Recommendations"
+15,"Relevant News Events","process","14","Local News Events"

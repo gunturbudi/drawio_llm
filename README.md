@@ -28,9 +28,9 @@ This repository is organized into several key directories, each serving a specif
 
 ## Cite this work
 
-``
+```
 Herwanto, Guntur Budi. "Automating Data Flow Diagram Generation from User Stories Using Large Language Models." 7th Workshop on Natural Language Processing for Requirements Engineering. 2024.
-``
+```
 
 ## More to come
 

@@ -26,6 +26,12 @@ This repository is organized into several key directories, each serving a specif
 - **Location:** `./analysis/`
 - **Description:** This folder contains the evaluation results, the detailed evaluation in Excel files, including the performance analysis in Jupyter Notebook and the feedback on the diagrams created.
 
+## Cite this work
+
+``
+Herwanto, Guntur Budi. "Automating Data Flow Diagram Generation from User Stories Using Large Language Models." 7th Workshop on Natural Language Processing for Requirements Engineering. 2024.
+``
+
 ## More to come
 
 The work is still under review; more details on the prompt used and the detailed approach will be published in the future

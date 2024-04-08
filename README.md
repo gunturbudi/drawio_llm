@@ -35,10 +35,4 @@ This repository is organized into several key directories, each serving a specif
   booktitle={7th Workshop on Natural Language Processing for Requirements Engineering},
   year={2024}
 }
-
-
 ```
-
-## More to come
-
-The work is still under review; more details on the prompt used and the detailed approach will be published in the future
